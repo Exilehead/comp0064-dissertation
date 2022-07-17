@@ -1,0 +1,11 @@
+Final Safety Attack
+1 LkTBcOH+pl6oLYpJ 10 0 This node is performing attack 1 that proposes multiple proposals with different QCs but same round numbers
+2 LkTBcOH+pl6oLYpJ 15 0 This node is performing attack 2.1 that with less round number than current round number and was not the leader for that round
+4 LkTBcOH+pl6oLYpJ 15 0 This node is performing attack 4.1.2 that it votes for proposals in attack 2.1, and it is reporting NO OR WRONG handling information
+3 M6tHReSgYW9eQCpT 10 0 This node is performing attack 3.1 that it votes for proposals in attack 1, and it is reporting CORRECT voting information
+4 M6tHReSgYW9eQCpT 15 0 This node is performing attack 4.1.1 that it votes for proposals in attack 2.1, and it is reporting CORRECT handling information
+3 QiqEp6Zo9Wx2/mSk 10 0 This node is performing attack 3.1 that it votes for proposals in attack 1, and it is reporting CORRECT voting information
+4 QiqEp6Zo9Wx2/mSk 15 0 This node is performing attack 4.1.1 that it votes for proposals in attack 2.1, and it is reporting CORRECT handling information
+3 viBnCsCXGWUjCYJJ 10 0 This node is performing attack 3.1 that it votes for proposals in attack 1, and it is reporting CORRECT voting information
+4 viBnCsCXGWUjCYJJ 15 0 This node is performing attack 4.1.1 that it votes for proposals in attack 2.1, and it is reporting CORRECT handling information
+Time to detect malicious nodes:  0.0967855453491211 seconds

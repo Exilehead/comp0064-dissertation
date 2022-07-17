@@ -1,0 +1,14 @@
+Final Safety Attack
+1 IP2rAli2+gZHO8F5 10 0 This node is performing attack 1 that proposes multiple proposals with different QCs but same round numbers
+3 IP2rAli2+gZHO8F5 10 0 This node is performing attack 3.1 that it votes for proposals in attack 1, and it is reporting CORRECT voting information
+2 IP2rAli2+gZHO8F5 15 0 This node is performing attack 2.1 that with less round number than current round number and was not the leader for that round
+4 IP2rAli2+gZHO8F5 15 0 This node is performing attack 4.1.2 that it votes for proposals in attack 2.1, and it is reporting NO OR WRONG handling information
+3 PMP8DpmcM+S0TN6w 10 0 This node is performing attack 3.2 that it votes for proposals in attack 1, and it is reporting NO OR WRONG voting information
+4 PMP8DpmcM+S0TN6w 15 0 This node is performing attack 4.1.2 that it votes for proposals in attack 2.1, and it is reporting NO OR WRONG handling information
+3 RX/dffzuWKISpY74 10 0 This node is performing attack 3.1 that it votes for proposals in attack 1, and it is reporting CORRECT voting information
+4 RX/dffzuWKISpY74 15 0 This node is performing attack 4.1.2 that it votes for proposals in attack 2.1, and it is reporting NO OR WRONG handling information
+3 TQU+ZRdl/iwJ9yEn 10 0 This node is performing attack 3.2 that it votes for proposals in attack 1, and it is reporting NO OR WRONG voting information
+4 TQU+ZRdl/iwJ9yEn 15 0 This node is performing attack 4.1.2 that it votes for proposals in attack 2.1, and it is reporting NO OR WRONG handling information
+3 u/QVtCfu9H/05RGB 10 0 This node is performing attack 3.2 that it votes for proposals in attack 1, and it is reporting NO OR WRONG voting information
+4 u/QVtCfu9H/05RGB 15 0 This node is performing attack 4.1.2 that it votes for proposals in attack 2.1, and it is reporting NO OR WRONG handling information
+Time to detect malicious nodes:  0.13924527168273926 seconds
