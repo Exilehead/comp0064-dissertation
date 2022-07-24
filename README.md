@@ -12,3 +12,16 @@ bft_tester.py is for testing, Have done 3 basic test and 1 advanced test, one mo
 Account "Exilehead" got password issue thus committed with my other account "gaoruize03"  
 
 
+7.25: Generating 6 types of attacks groups with their logs:  
+1. Individual attack  
+
+2. All attacks, one leader for attack 1, 2 for each  
+
+3. All attacks, one leader for attack 1, 2 for each, with some liveness attacks interference  
+
+4. All attacks, multiple leaders for attack 1, 2 for each, with some liveness attacks interference  
+
+5. All attacks, one leader doing both attack 1, 2 at the same round  
+With improved precision and recall based on their results. Improvement as bug fixes are included in detector's comment  
+Results can be see in result.xls with charts generated for aggregated average and standard deviation for groups of attacks
+
