@@ -1,0 +1,10 @@
+[2022-07-23T16:36:22.356Z INFO  client] Node address: 127.0.0.1:9018
+[2022-07-23T16:36:22.356Z INFO  client] Transactions size: 512 B
+[2022-07-23T16:36:22.356Z INFO  client] Transactions rate: 112 tx/s
+[2022-07-23T16:36:22.356Z INFO  client] Waiting for all nodes to be online...
+[2022-07-23T16:36:22.356Z INFO  client] Waiting for all nodes to be synchronized...
+Error: Failed to submit transactions
+
+Caused by:
+    0: failed to connect to 127.0.0.1:9018
+    1: Connection refused (os error 111)
