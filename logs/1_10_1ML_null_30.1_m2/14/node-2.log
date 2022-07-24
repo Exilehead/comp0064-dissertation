@@ -1,0 +1,1203 @@
+[2022-07-23T18:33:31.674Z INFO  mempool::config] Garbage collection depth set to 50 rounds
+[2022-07-23T18:33:31.674Z INFO  mempool::config] Sync retry delay set to 5000 ms
+[2022-07-23T18:33:31.674Z INFO  mempool::config] Sync retry nodes set to 3 nodes
+[2022-07-23T18:33:31.674Z INFO  mempool::config] Batch size set to 15000 B
+[2022-07-23T18:33:31.674Z INFO  mempool::config] Max batch delay set to 10 ms
+[2022-07-23T18:33:31.674Z INFO  mempool::mempool] Mempool listening to client transactions on 0.0.0.0:9012
+[2022-07-23T18:33:31.674Z INFO  mempool::mempool] Mempool listening to mempool messages on 0.0.0.0:9022
+[2022-07-23T18:33:31.674Z INFO  mempool::mempool] Mempool successfully booted on 127.0.0.1
+[2022-07-23T18:33:31.674Z INFO  consensus::config] Timeout delay set to 1000 rounds
+[2022-07-23T18:33:31.674Z INFO  consensus::config] Sync retry delay set to 10000 ms
+[2022-07-23T18:33:31.674Z INFO  consensus::consensus] Node rbc6NMLFt9/kjrbG listening to consensus messages on 0.0.0.0:9002
+[2022-07-23T18:33:31.674Z INFO  node::node] Node rbc6NMLFt9/kjrbG successfully booted
+[2022-07-23T18:33:31.726Z INFO  consensus::core] I am voter rbc6NMLFt9/kjrbG with nanos 400
+[2022-07-23T18:33:31.752Z INFO  network::receiver] Incoming connection established with 127.0.0.1:56221
+[2022-07-23T18:33:32.313Z INFO  network::receiver] Incoming connection established with 127.0.0.1:56232
+[2022-07-23T18:33:32.379Z INFO  network::receiver] Incoming connection established with 127.0.0.1:56244
+[2022-07-23T18:33:32.745Z WARN  consensus::core] Timeout reached for round 1
+[2022-07-23T18:33:32.755Z INFO  network::simple_sender] Outgoing connection established with 127.0.0.1:9004
+[2022-07-23T18:33:32.755Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9006 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:32.755Z INFO  network::simple_sender] Outgoing connection established with 127.0.0.1:9001
+[2022-07-23T18:33:32.756Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9008 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:32.756Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9005 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:32.756Z INFO  network::simple_sender] Outgoing connection established with 127.0.0.1:9000
+[2022-07-23T18:33:32.759Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:32.759Z INFO  network::simple_sender] Outgoing connection established with 127.0.0.1:9003
+[2022-07-23T18:33:32.756Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9007 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:32.819Z INFO  network::receiver] Incoming connection established with 127.0.0.1:56273
+[2022-07-23T18:33:33.303Z WARN  consensus::core] Received more than one vote from 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:33.334Z WARN  consensus::core] Received more than one vote from 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:33.612Z INFO  network::receiver] Incoming connection established with 127.0.0.1:56292
+[2022-07-23T18:33:33.750Z WARN  consensus::core] Timeout reached for round 1
+[2022-07-23T18:33:33.750Z WARN  consensus::core] Received more than one vote from rbc6NMLFt9/kjrbG
+[2022-07-23T18:33:33.755Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:33.755Z INFO  network::simple_sender] Outgoing connection established with 127.0.0.1:9006
+[2022-07-23T18:33:33.755Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9008 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:33.755Z INFO  network::simple_sender] Outgoing connection established with 127.0.0.1:9005
+[2022-07-23T18:33:33.756Z INFO  network::simple_sender] Outgoing connection established with 127.0.0.1:9007
+[2022-07-23T18:33:33.795Z INFO  network::receiver] Incoming connection established with 127.0.0.1:56309
+[2022-07-23T18:33:33.817Z INFO  network::receiver] Incoming connection established with 127.0.0.1:56316
+[2022-07-23T18:33:33.824Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B1 with round number 1 with QC 0 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:33.824Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B1 with round number 1 with QC 0 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:33.824Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B1 with round number 1 with QC 0 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:33.830Z WARN  consensus::core] Received more than one vote from 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:33.857Z INFO  network::receiver] Incoming connection established with 127.0.0.1:56333
+[2022-07-23T18:33:33.864Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B2 with round number 2 with QC 1 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:33.871Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B2 with round number 2 with QC 1 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:33.871Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B2 with round number 2 with QC 1 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:34.031Z INFO  network::receiver] Incoming connection established with 127.0.0.1:56352
+[2022-07-23T18:33:34.031Z INFO  network::receiver] Incoming connection established with 127.0.0.1:56359
+[2022-07-23T18:33:34.034Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B3 with round number 3 with QC 2 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:34.035Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B3 with round number 3 with QC 2 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:34.035Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B3 with round number 3 with QC 2 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:34.036Z INFO  network::receiver] Incoming connection established with 127.0.0.1:56363
+[2022-07-23T18:33:34.040Z INFO  consensus::proposer] Created B4
+[2022-07-23T18:33:34.040Z INFO  consensus::proposer] Created with Round number 4 with QC 3 
+[2022-07-23T18:33:34.040Z INFO  consensus::proposer] Created B4 -> t0ZCqI/nxXu2gbgaZAFw90KwU90gFh3ZMRvg0fG8bGw=
+[2022-07-23T18:33:34.040Z INFO  consensus::proposer] Created B4 -> if16dgvaqJD/V0Q7bUEg4ICs7numNsfiEayzg8irXXA=
+[2022-07-23T18:33:34.040Z INFO  consensus::core] Committed B2 with QC 1
+[2022-07-23T18:33:34.040Z INFO  consensus::core] Committed B2 -> HFk/0wvN8eAmXl/dJq4DJJQ8kId6SfH9A2M5MhgaJpU=
+[2022-07-23T18:33:34.040Z INFO  consensus::core] Committed B2 -> fkeg3m7tolzHdxGFucEilFVShSlkWelRYJ0ao/OfV2w=
+[2022-07-23T18:33:34.040Z INFO  consensus::core] Committed B2 -> 9YWMkGf/qxtr/ddKJt3mwwawwohQKKiFCjQjHE+BhTE=
+[2022-07-23T18:33:34.040Z INFO  consensus::core] Committed B2 -> M2GEri71Lz89zGb3yL1M4i8iUtV6A9PoQg3bnxYC2O8=
+[2022-07-23T18:33:34.040Z INFO  consensus::core] Committed B2 -> U7FIWjioAns17G5AWll8mG587Y0QzI4X8UtIer6+SPw=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> 19zGkoSOMabATXcRNWyenp0olO89PXyjhTobay4sAhc=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> bWuDmdI7gSRKmi9xo1tLb1Ua20OQbP3caP5jAmGTF0M=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> EuUQ7fv3r922zT/hfw2MTo4MwpqhPOYLXhW1wQ0GZdU=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> oTEERKYJqpAJ+SIbg3o/V5ucuYxB0jpq15mrqUaQV54=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> fk20Hly4YOf/QtQMzCZ45LLTvOGN8UPP1XnkdDTqS0Q=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> Ipa8voadKXiFtN8KgeFytIQQh3Ktk2brSEHN6n1fzAM=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> sH3xTjDrbv3MVBKFGAqhjBSp7FQTiY+beRtflFAFwWY=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> h5KiW5O824vaWgixIySDF/myNOIWRDhye1ug6G3FsA4=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> Bo8bJOhtNuoeydBvbhqsV0yPnAAB8tWUKt92aaI57XM=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> ux+vE9b5OuPq5ItFQWFQf4hRP8VWz33Ja5mpRqyLW9I=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> mrzmA1gRhtJB8G9R/8WfQ5Adhw9MmrLHYeFPfrSBV2c=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> 7J44rMxI9N4Jh+QuALkUCJxmfKabKF4ClrdK8vbaQ9A=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> RxyJFC4Fhot/7+9eSSzUoGqkNsAb8SG6GPik6N3767g=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> xThc0RlViNvbI1+WoqAsjWDTtDlbhXOguygJD8JMVSM=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> +2wfgy/sNeEOfgW1K+lNmT9eQHP8u6gDmryj7sLJHIM=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> J6SUrlyh82DIignkVon/UNjfR6dLd62paIo/tL0bwmw=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> vMB9Y33YnbD5fylnrCI95Iu6PcAIeQD0ehJvWkJP6dw=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> UZj7opfOsyWUQ18ttDcq4JuNasJsh+OKMkWCxqJXiDk=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> GoiVB38yJV1pf0zUGaO1HmvhaowyMH2Q/M4PCWOEGuY=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> IeUzQSX+xjWWfAlOrrUKfoGM364tjIR/dWSDz5weZUY=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> Nrx0Za4/oxNKXop80TMiVaJ+hwOkCGoK7totbkZD3cM=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> gqfL3/hWWtyEoBsiBaji2YcO5qCmO2WhaIHrTZHYVds=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> 4Al/m3v1bJGtYuDowi4Xc8BY3/b3YRZ27UZvYA7e/Sc=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> Q6EqHZqqtgO68Rcx/+J5X0RF7nO5GRkF4YYGL53uicY=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> 1Ykv8JKcR7QLzT5JLX0+oSN/Gjb+xrgQfXmSaPvOMGc=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> z3Ys19n58GELXVVa9ZaYSmoHufGrQCQZhtRHbMGih4Y=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> w9i3alAnZ2fcMn21fc6e2g3eKv9iTfwajQ4iR24fOiY=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> p2+g0SYMTjMRvbVhMdFb82tmsSlWNMGDTh1epUrpuaE=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> 78wttXUbgllAY5kPj+56nj3eQ6qlLqFJOmWodGJ49OM=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> hidqqmWPxbKod3UoajY1Ks99QovgKX2VIfe/KwEKz+8=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> l7ULW2Zh2/M8U0ABkkMoW3W+s7KPniWj/APZRiLfO48=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> ar/snFKLKuCWhoSaPJqwPnJG8qOWfjq/39O9h+WHE2A=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> zlQkbifnFDd8rKNTJERd/40vB0cB8glb8vNga/7s3tg=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> yr9TKivrgZklN/qxiWKCWMm58yhXd9yL249fw/FOM7Y=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> Z4SEW4/q7AUW8IC0vDDjexiIgoICe3J/avdqS2JUeVc=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> DO6NjdjLgt3ZeAWwqEZNPajPzN9cr5/CLk+o9XYxzNo=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> aMPzWYxgUkz7i8uyD7ix1DWc+cNOglprp79OxD1J2Pw=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> FAUNA/iTnxCcHbhPMFlh60dOi2pirQ65Sy6mdGWgSg4=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> S/gIyGuutkxv9MpNXSZ1qesdgy+6rcvkCi2kPceOweM=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> 43a/V1vXk+0t2+EJ8zvnzNaKxC1YpUggLBr5wJFVn6Y=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> gxWEXWItjHU1sUUOnCuutE19cPfi6U0VWkgsOXjPYog=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> njnQIZbRvocXZtcJOGTTBh8wdSuBaG1VgPbYNByI1Ow=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> xz3twdFIGjrXJzSs9SjYYaBU903qcLiETbKKSJ72gao=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] Committed B2 -> m4MYAUgbh0aB5g18b974ED80X2CkjHa/wduKl8c8pS8=
+[2022-07-23T18:33:34.041Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B4 with round number 4 with QC 3 from leader rbc6NMLFt9/kjrbG
+[2022-07-23T18:33:34.041Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B4 with round number 4 with QC 3 from leader rbc6NMLFt9/kjrbG
+[2022-07-23T18:33:34.044Z INFO  network::reliable_sender] Outgoing connection established with 127.0.0.1:9007
+[2022-07-23T18:33:34.044Z INFO  network::reliable_sender] Outgoing connection established with 127.0.0.1:9004
+[2022-07-23T18:33:34.044Z INFO  network::reliable_sender] Outgoing connection established with 127.0.0.1:9008
+[2022-07-23T18:33:34.045Z WARN  network::reliable_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:34.045Z INFO  network::reliable_sender] Outgoing connection established with 127.0.0.1:9001
+[2022-07-23T18:33:34.045Z INFO  network::reliable_sender] Outgoing connection established with 127.0.0.1:9005
+[2022-07-23T18:33:34.046Z INFO  network::reliable_sender] Outgoing connection established with 127.0.0.1:9000
+[2022-07-23T18:33:34.047Z INFO  network::reliable_sender] Outgoing connection established with 127.0.0.1:9003
+[2022-07-23T18:33:34.048Z INFO  network::reliable_sender] Outgoing connection established with 127.0.0.1:9006
+[2022-07-23T18:33:34.061Z INFO  network::receiver] Incoming connection established with 127.0.0.1:56377
+[2022-07-23T18:33:34.061Z INFO  network::receiver] Incoming connection established with 127.0.0.1:56378
+[2022-07-23T18:33:34.063Z INFO  network::simple_sender] Outgoing connection established with 127.0.0.1:9027
+[2022-07-23T18:33:34.064Z INFO  network::receiver] Incoming connection established with 127.0.0.1:56379
+[2022-07-23T18:33:34.064Z INFO  network::receiver] Incoming connection established with 127.0.0.1:56380
+[2022-07-23T18:33:34.064Z INFO  network::simple_sender] Outgoing connection established with 127.0.0.1:9021
+[2022-07-23T18:33:34.067Z INFO  network::simple_sender] Outgoing connection established with 127.0.0.1:9026
+[2022-07-23T18:33:34.069Z INFO  network::receiver] Incoming connection established with 127.0.0.1:56384
+[2022-07-23T18:33:34.085Z INFO  network::receiver] Incoming connection established with 127.0.0.1:56395
+[2022-07-23T18:33:34.087Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B5 with round number 5 with QC 4 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:34.088Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B5 with round number 5 with QC 4 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:34.088Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B5 with round number 5 with QC 4 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:34.088Z INFO  network::simple_sender] Outgoing connection established with 127.0.0.1:9028
+[2022-07-23T18:33:34.110Z INFO  network::receiver] Incoming connection established with 127.0.0.1:56416
+[2022-07-23T18:33:34.111Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B6 with round number 6 with QC 5 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:34.112Z INFO  consensus::core] Committed B4 with QC 3
+[2022-07-23T18:33:34.112Z INFO  consensus::core] Committed B4 -> t0ZCqI/nxXu2gbgaZAFw90KwU90gFh3ZMRvg0fG8bGw=
+[2022-07-23T18:33:34.112Z INFO  consensus::core] Committed B4 -> if16dgvaqJD/V0Q7bUEg4ICs7numNsfiEayzg8irXXA=
+[2022-07-23T18:33:34.112Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B6 with round number 6 with QC 5 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:34.112Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B6 with round number 6 with QC 5 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:34.113Z INFO  network::receiver] Incoming connection established with 127.0.0.1:56421
+[2022-07-23T18:33:34.122Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B7 with round number 7 with QC 6 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:34.123Z INFO  consensus::core] Committed B5 with QC 4
+[2022-07-23T18:33:34.123Z INFO  consensus::core] Committed B5 -> hGcnJPeHFDGWC52uBwfImj5bhbPYfTynHV+0ibrfpZU=
+[2022-07-23T18:33:34.123Z INFO  consensus::core] Committed B5 -> hkNSWHYhhNOifzDfv6dN+Us1OSuwVUsk9mLE5Y2/WrU=
+[2022-07-23T18:33:34.123Z INFO  consensus::core] Committed B5 -> vKV2mov36ByWycXpbUvjCG+EDwnUQ53ztmnBnPJJIcw=
+[2022-07-23T18:33:34.123Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B7 with round number 7 with QC 6 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:34.123Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B7 with round number 7 with QC 6 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:34.145Z INFO  network::receiver] Incoming connection established with 127.0.0.1:56446
+[2022-07-23T18:33:34.146Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B8 with round number 8 with QC 7 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:34.147Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B8 with round number 8 with QC 7 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:34.147Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B8 with round number 8 with QC 7 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:34.170Z INFO  network::receiver] Incoming connection established with 127.0.0.1:56468
+[2022-07-23T18:33:34.170Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B9 with round number 9 with QC 8 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:34.171Z INFO  consensus::core] Committed B7 with QC 6
+[2022-07-23T18:33:34.171Z INFO  consensus::core] Committed B7 -> rXDONlPee5AMW9F/ywxZbrkOPV0erxjbuxCZAdqeEus=
+[2022-07-23T18:33:34.171Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B9 with round number 9 with QC 8 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:34.171Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B9 with round number 9 with QC 8 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:34.172Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:34.263Z WARN  network::reliable_sender] Failed to connect to 127.0.0.1:9009 (retry 1): Connection refused (os error 111)
+[2022-07-23T18:33:34.688Z WARN  network::reliable_sender] Failed to connect to 127.0.0.1:9009 (retry 2): Connection refused (os error 111)
+[2022-07-23T18:33:35.175Z WARN  consensus::core] Timeout reached for round 9
+[2022-07-23T18:33:35.182Z INFO  network::simple_sender] Outgoing connection established with 127.0.0.1:9008
+[2022-07-23T18:33:35.182Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:35.491Z WARN  network::reliable_sender] Failed to connect to 127.0.0.1:9009 (retry 3): Connection refused (os error 111)
+[2022-07-23T18:33:36.252Z WARN  consensus::core] Timeout reached for round 10
+[2022-07-23T18:33:36.259Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:36.264Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:36.275Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B11 with round number 11 with QC 8 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:36.277Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B11 with round number 11 with QC 8 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:36.277Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B11 with round number 11 with QC 8 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:36.301Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B12 with round number 12 with QC 11 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:36.302Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B12 with round number 12 with QC 11 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:36.302Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B12 with round number 12 with QC 11 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:36.316Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B11 with round number 11 with QC 8 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:36.318Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B11 with round number 11 with QC 8 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:36.318Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B11 with round number 11 with QC 8 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:36.318Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B11 with round number 11 with QC 8 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:36.320Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B11 with round number 11 with QC 8 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:36.320Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B11 with round number 11 with QC 8 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:36.327Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B11 with round number 11 with QC 8 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:36.329Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B11 with round number 11 with QC 8 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:36.329Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B11 with round number 11 with QC 8 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:36.355Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B13 with round number 13 with QC 12 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:36.356Z INFO  consensus::core] Committed B8 with QC 7
+[2022-07-23T18:33:36.356Z INFO  consensus::core] Committed B8 -> hdjqr1ID9i+8b7M3o/zSN8JiZZas6ewbZYeSWRXS4CU=
+[2022-07-23T18:33:36.356Z INFO  consensus::core] Committed B11 with QC 8
+[2022-07-23T18:33:36.356Z INFO  consensus::core] Committed B11 -> cWFsigCgiyFWkXW9ZR9/XcD1XFQSflbAGLojUQaMr2g=
+[2022-07-23T18:33:36.356Z INFO  consensus::core] Committed B11 -> OiER5C+5fSiP2ra5L7ozH00r9JPZEZHRfHgsa3BQnL8=
+[2022-07-23T18:33:36.356Z INFO  consensus::core] Committed B11 -> vK9MZ5QPGuxbzR8ZlTKk3FPXj1Kehy/kxE0IQHPEaRg=
+[2022-07-23T18:33:36.356Z INFO  consensus::core] Committed B11 -> xxLoU5rcUlXsPa8t2dHLzubeCNwVduMQIyeHaKzP4+w=
+[2022-07-23T18:33:36.356Z INFO  consensus::core] Committed B11 -> vY5IGxxac8NS8ug8bnPjsAi/suyqfV4oycINyLP+zek=
+[2022-07-23T18:33:36.356Z INFO  consensus::core] Committed B11 -> +DbsZ4UiP3/zKaF3EJRIH0yyyeMYZwG4PbgTwi/bD+Y=
+[2022-07-23T18:33:36.356Z INFO  consensus::core] Committed B11 -> g3WrGdy0yQHyzrSDM9QfBjvaCKDHTmCT+fozlBPvyP4=
+[2022-07-23T18:33:36.357Z INFO  consensus::core] Committed B11 -> qRBwvUJ8pfIx2KUbW92WGJS0imnINNNmsB8FL+3i4gw=
+[2022-07-23T18:33:36.357Z INFO  consensus::core] Committed B11 -> TJdXEpa3gj8UFcDpzZeNB1hDPZeuzYpDnZlr6sPlYtM=
+[2022-07-23T18:33:36.357Z INFO  consensus::core] Committed B11 -> vW4kIeIpwET3sVKQIbvLC+VXs5vnmrmo0SeUfqCKZ+E=
+[2022-07-23T18:33:36.357Z INFO  consensus::core] Committed B11 -> ISSRgBCFTKQcSsjrCgtRRAGGVltHYhMylfnM09s2Fao=
+[2022-07-23T18:33:36.357Z INFO  consensus::core] Committed B11 -> hJHbhdPc8GuCwPR5vYGySPB3zZ3m7UBB3/6SGAyqtkM=
+[2022-07-23T18:33:36.357Z INFO  consensus::core] Committed B11 -> P/vfKyZ0sS8EhKiltkQRqHy0eRfk291K90j5NIH8Qqc=
+[2022-07-23T18:33:36.357Z INFO  consensus::core] Committed B11 -> +F8o8xU0ePRRekURtsKtiLaQw79AYaFRyS4TGcKm7T0=
+[2022-07-23T18:33:36.357Z INFO  consensus::core] Committed B11 -> xHWxwgERmW+tzFfYaHzmcq7LXQZinqGx7vPOXJ6vzCE=
+[2022-07-23T18:33:36.357Z INFO  consensus::core] Committed B11 -> Kuu6+QKtwEHSGGXDlFldYheHoQ0LLA8UrOUy75fzfJU=
+[2022-07-23T18:33:36.357Z INFO  consensus::core] Committed B11 -> 6bxHJ6vc/a/eINtx6/5Z6kAuHBaElS/ER09DZDT5C24=
+[2022-07-23T18:33:36.357Z INFO  consensus::core] Committed B11 -> 3natsCMiGrqaZDZ65OBgKgrdAei/WxyXcxxA6ckENIE=
+[2022-07-23T18:33:36.357Z INFO  consensus::core] Committed B11 -> fdXeH3+yJ6Fzr0u4RqcNTSBU0Tk45NPA9qAkps7mL/g=
+[2022-07-23T18:33:36.357Z INFO  consensus::core] Committed B11 -> TJ/2uOk9TiPywqpFdxUc451we+mG3nVB3QMmflOKOY8=
+[2022-07-23T18:33:36.357Z INFO  consensus::core] Committed B11 -> I+msGXEVwnULzvOBrvgVJEHLeJhJLFnPb4cZ/EZIaZo=
+[2022-07-23T18:33:36.357Z INFO  consensus::core] Committed B11 -> +DlB0f5duIIL9VpIrj7QnDDVhHAxadIAvfPMn1KqOAk=
+[2022-07-23T18:33:36.357Z INFO  consensus::core] Committed B11 -> be+Fv+MnX8X3sX75WpOb8r7lYSGrV6m8EOhJO5yyY30=
+[2022-07-23T18:33:36.357Z INFO  consensus::core] Committed B11 -> PSni/rfFkb2wRqJk2KJgQCiWedyiIsf4J4HkR3dijdw=
+[2022-07-23T18:33:36.357Z INFO  consensus::core] Committed B11 -> 9IFoDE1HXhvq3aJQVwbfcnJIjSPczau2nM/7vK3vilM=
+[2022-07-23T18:33:36.357Z INFO  consensus::core] Committed B11 -> tUjztHb0ufE26ulpOdbpRvfaWNJJZt/grfCky2utizs=
+[2022-07-23T18:33:36.357Z INFO  consensus::core] Committed B11 -> BhkGhmjuMOTIraj+qIrHA0Vyty5z6/5foQ4h4rA9mc8=
+[2022-07-23T18:33:36.357Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B13 with round number 13 with QC 12 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:36.357Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B13 with round number 13 with QC 12 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:36.358Z INFO  consensus::proposer] Created B14
+[2022-07-23T18:33:36.358Z INFO  consensus::proposer] Created with Round number 14 with QC 13 
+[2022-07-23T18:33:36.358Z INFO  consensus::proposer] Created B14 -> Uja1zphcOal1Rj8xUdH8Pe1sop8jYPLsXMoNEsx97MU=
+[2022-07-23T18:33:36.358Z INFO  consensus::core] Committed B12 with QC 11
+[2022-07-23T18:33:36.358Z INFO  consensus::core] Committed B12 -> BylBP2wvL38DoCibkaR8QKOAhZirWFMTHwfICuAtzq4=
+[2022-07-23T18:33:36.358Z INFO  consensus::core] Committed B12 -> 3t3Uf1G3vvmmSs0r38ZaE806PjJIlSz0IJIhxoDyWpM=
+[2022-07-23T18:33:36.358Z INFO  consensus::core] Committed B12 -> 3XxrFx0DaS6Rp+wMWwip1TpsdW5Tish0U4lVOC9GPBc=
+[2022-07-23T18:33:36.358Z INFO  consensus::core] Committed B12 -> iWolCFa8ODSDzpcA3QXYctBIghWUNtFOgfJIF2meD2I=
+[2022-07-23T18:33:36.358Z INFO  consensus::core] Committed B12 -> gdpq/ipLvtgr/c7UVOqiAH84znO5pa822gJB00GTC+s=
+[2022-07-23T18:33:36.358Z INFO  consensus::core] Committed B12 -> In6gr00Zq+WTkxnb5O2I+8x+Vg6+VLu2R5rDF/2V0b8=
+[2022-07-23T18:33:36.358Z INFO  consensus::core] Committed B12 -> 5m60gZlC5vxEwIbMOlEH1qS7S63zFfqRvkQWm9AF9uE=
+[2022-07-23T18:33:36.358Z INFO  consensus::core] Committed B12 -> ezlyJsnGiCa0YbtlGC1RD5sL3hONpVIXSo5bqWiPl+0=
+[2022-07-23T18:33:36.358Z INFO  consensus::core] Committed B12 -> GyfX9Rdzw63EfQVYCHVJjikEmJofupmabQy4iHCQkwM=
+[2022-07-23T18:33:36.358Z INFO  consensus::core] Committed B12 -> c/Av8YMEuhTi3tKhGA718WHch+3mj3qFdHOzQ0n1n50=
+[2022-07-23T18:33:36.359Z INFO  consensus::core] Committed B12 -> oTWyt2W0/EBIOjy/1I5J9pbMGlN3C/h+Jd+lrITj37U=
+[2022-07-23T18:33:36.359Z INFO  consensus::core] Committed B12 -> CObJbgEl8T/Na5gJYiNanR7qux/UjkCe4ha3A8WGLLg=
+[2022-07-23T18:33:36.359Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B14 with round number 14 with QC 13 from leader rbc6NMLFt9/kjrbG
+[2022-07-23T18:33:36.359Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B14 with round number 14 with QC 13 from leader rbc6NMLFt9/kjrbG
+[2022-07-23T18:33:36.370Z INFO  network::receiver] Incoming connection established with 127.0.0.1:56549
+[2022-07-23T18:33:36.371Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B11 with round number 11 with QC 8 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:36.373Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B11 with round number 11 with QC 8 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:36.373Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B11 with round number 11 with QC 8 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:36.374Z INFO  network::simple_sender] Outgoing connection established with 127.0.0.1:9008
+[2022-07-23T18:33:36.389Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B15 with round number 15 with QC 14 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:36.390Z INFO  consensus::core] Committed B13 with QC 12
+[2022-07-23T18:33:36.390Z INFO  consensus::core] Committed B13 -> RxyJFC4Fhot/7+9eSSzUoGqkNsAb8SG6GPik6N3767g=
+[2022-07-23T18:33:36.390Z INFO  consensus::core] Committed B13 -> ar/snFKLKuCWhoSaPJqwPnJG8qOWfjq/39O9h+WHE2A=
+[2022-07-23T18:33:36.390Z INFO  consensus::core] Committed B13 -> IeUzQSX+xjWWfAlOrrUKfoGM364tjIR/dWSDz5weZUY=
+[2022-07-23T18:33:36.390Z INFO  consensus::core] Committed B13 -> t0ZCqI/nxXu2gbgaZAFw90KwU90gFh3ZMRvg0fG8bGw=
+[2022-07-23T18:33:36.390Z INFO  consensus::core] Committed B13 -> 43a/V1vXk+0t2+EJ8zvnzNaKxC1YpUggLBr5wJFVn6Y=
+[2022-07-23T18:33:36.390Z INFO  consensus::core] Committed B13 -> U7FIWjioAns17G5AWll8mG587Y0QzI4X8UtIer6+SPw=
+[2022-07-23T18:33:36.390Z INFO  consensus::core] Committed B13 -> UZj7opfOsyWUQ18ttDcq4JuNasJsh+OKMkWCxqJXiDk=
+[2022-07-23T18:33:36.390Z INFO  consensus::core] Committed B13 -> sH3xTjDrbv3MVBKFGAqhjBSp7FQTiY+beRtflFAFwWY=
+[2022-07-23T18:33:36.390Z INFO  consensus::core] Committed B13 -> J6SUrlyh82DIignkVon/UNjfR6dLd62paIo/tL0bwmw=
+[2022-07-23T18:33:36.390Z INFO  consensus::core] Committed B13 -> FAUNA/iTnxCcHbhPMFlh60dOi2pirQ65Sy6mdGWgSg4=
+[2022-07-23T18:33:36.390Z INFO  consensus::core] Committed B13 -> zlQkbifnFDd8rKNTJERd/40vB0cB8glb8vNga/7s3tg=
+[2022-07-23T18:33:36.390Z INFO  consensus::core] Committed B13 -> bWuDmdI7gSRKmi9xo1tLb1Ua20OQbP3caP5jAmGTF0M=
+[2022-07-23T18:33:36.390Z INFO  consensus::core] Committed B13 -> p2+g0SYMTjMRvbVhMdFb82tmsSlWNMGDTh1epUrpuaE=
+[2022-07-23T18:33:36.390Z INFO  consensus::core] Committed B13 -> S/gIyGuutkxv9MpNXSZ1qesdgy+6rcvkCi2kPceOweM=
+[2022-07-23T18:33:36.390Z INFO  consensus::core] Committed B13 -> gqfL3/hWWtyEoBsiBaji2YcO5qCmO2WhaIHrTZHYVds=
+[2022-07-23T18:33:36.399Z INFO  consensus::core] Committed B13 -> fkeg3m7tolzHdxGFucEilFVShSlkWelRYJ0ao/OfV2w=
+[2022-07-23T18:33:36.399Z INFO  consensus::core] Committed B13 -> hkNSWHYhhNOifzDfv6dN+Us1OSuwVUsk9mLE5Y2/WrU=
+[2022-07-23T18:33:36.399Z INFO  consensus::core] Committed B13 -> Q6EqHZqqtgO68Rcx/+J5X0RF7nO5GRkF4YYGL53uicY=
+[2022-07-23T18:33:36.399Z INFO  consensus::core] Committed B13 -> m4MYAUgbh0aB5g18b974ED80X2CkjHa/wduKl8c8pS8=
+[2022-07-23T18:33:36.399Z INFO  consensus::core] Committed B13 -> vKV2mov36ByWycXpbUvjCG+EDwnUQ53ztmnBnPJJIcw=
+[2022-07-23T18:33:36.399Z INFO  consensus::core] Committed B13 -> EuUQ7fv3r922zT/hfw2MTo4MwpqhPOYLXhW1wQ0GZdU=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> z3Ys19n58GELXVVa9ZaYSmoHufGrQCQZhtRHbMGih4Y=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> aMPzWYxgUkz7i8uyD7ix1DWc+cNOglprp79OxD1J2Pw=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> GoiVB38yJV1pf0zUGaO1HmvhaowyMH2Q/M4PCWOEGuY=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> DO6NjdjLgt3ZeAWwqEZNPajPzN9cr5/CLk+o9XYxzNo=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> 19zGkoSOMabATXcRNWyenp0olO89PXyjhTobay4sAhc=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> xz3twdFIGjrXJzSs9SjYYaBU903qcLiETbKKSJ72gao=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> 1Ykv8JKcR7QLzT5JLX0+oSN/Gjb+xrgQfXmSaPvOMGc=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> +2wfgy/sNeEOfgW1K+lNmT9eQHP8u6gDmryj7sLJHIM=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> 9YWMkGf/qxtr/ddKJt3mwwawwohQKKiFCjQjHE+BhTE=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> ux+vE9b5OuPq5ItFQWFQf4hRP8VWz33Ja5mpRqyLW9I=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> Ipa8voadKXiFtN8KgeFytIQQh3Ktk2brSEHN6n1fzAM=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> oTEERKYJqpAJ+SIbg3o/V5ucuYxB0jpq15mrqUaQV54=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> hidqqmWPxbKod3UoajY1Ks99QovgKX2VIfe/KwEKz+8=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> if16dgvaqJD/V0Q7bUEg4ICs7numNsfiEayzg8irXXA=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> fk20Hly4YOf/QtQMzCZ45LLTvOGN8UPP1XnkdDTqS0Q=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> Z4SEW4/q7AUW8IC0vDDjexiIgoICe3J/avdqS2JUeVc=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> njnQIZbRvocXZtcJOGTTBh8wdSuBaG1VgPbYNByI1Ow=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> l7ULW2Zh2/M8U0ABkkMoW3W+s7KPniWj/APZRiLfO48=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> mrzmA1gRhtJB8G9R/8WfQ5Adhw9MmrLHYeFPfrSBV2c=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> vMB9Y33YnbD5fylnrCI95Iu6PcAIeQD0ehJvWkJP6dw=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> 78wttXUbgllAY5kPj+56nj3eQ6qlLqFJOmWodGJ49OM=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> hGcnJPeHFDGWC52uBwfImj5bhbPYfTynHV+0ibrfpZU=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> M2GEri71Lz89zGb3yL1M4i8iUtV6A9PoQg3bnxYC2O8=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> Bo8bJOhtNuoeydBvbhqsV0yPnAAB8tWUKt92aaI57XM=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> HFk/0wvN8eAmXl/dJq4DJJQ8kId6SfH9A2M5MhgaJpU=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> gxWEXWItjHU1sUUOnCuutE19cPfi6U0VWkgsOXjPYog=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> h5KiW5O824vaWgixIySDF/myNOIWRDhye1ug6G3FsA4=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> xThc0RlViNvbI1+WoqAsjWDTtDlbhXOguygJD8JMVSM=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> yr9TKivrgZklN/qxiWKCWMm58yhXd9yL249fw/FOM7Y=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> w9i3alAnZ2fcMn21fc6e2g3eKv9iTfwajQ4iR24fOiY=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> 4Al/m3v1bJGtYuDowi4Xc8BY3/b3YRZ27UZvYA7e/Sc=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> 7J44rMxI9N4Jh+QuALkUCJxmfKabKF4ClrdK8vbaQ9A=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] Committed B13 -> Nrx0Za4/oxNKXop80TMiVaJ+hwOkCGoK7totbkZD3cM=
+[2022-07-23T18:33:36.400Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B15 with round number 15 with QC 14 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:36.400Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B15 with round number 15 with QC 14 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:36.411Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B16 with round number 16 with QC 15 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:36.412Z INFO  consensus::core] Committed B14 with QC 13
+[2022-07-23T18:33:36.412Z INFO  consensus::core] Committed B14 -> Uja1zphcOal1Rj8xUdH8Pe1sop8jYPLsXMoNEsx97MU=
+[2022-07-23T18:33:36.412Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B16 with round number 16 with QC 15 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:36.412Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B16 with round number 16 with QC 15 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:36.427Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B17 with round number 17 with QC 16 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:36.427Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B17 with round number 17 with QC 16 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:36.427Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B17 with round number 17 with QC 16 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:36.432Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B18 with round number 18 with QC 17 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:36.434Z INFO  consensus::core] Committed B16 with QC 15
+[2022-07-23T18:33:36.434Z INFO  consensus::core] Committed B16 -> TYSGTBrP6lDeoYf8+efw0z3vzI+Z5EsRFjhKZQTSSRI=
+[2022-07-23T18:33:36.434Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B18 with round number 18 with QC 17 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:36.434Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B18 with round number 18 with QC 17 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:36.447Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B19 with round number 19 with QC 18 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:36.448Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B19 with round number 19 with QC 18 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:36.449Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B19 with round number 19 with QC 18 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:36.450Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:37.102Z WARN  network::reliable_sender] Failed to connect to 127.0.0.1:9009 (retry 4): Connection refused (os error 111)
+[2022-07-23T18:33:37.466Z WARN  consensus::core] Timeout reached for round 19
+[2022-07-23T18:33:37.474Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:37.478Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:38.547Z WARN  consensus::core] Timeout reached for round 20
+[2022-07-23T18:33:38.553Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:38.558Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:38.568Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B21 with round number 21 with QC 18 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:38.570Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B21 with round number 21 with QC 18 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:38.570Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B21 with round number 21 with QC 18 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:38.588Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B21 with round number 21 with QC 18 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:38.590Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B21 with round number 21 with QC 18 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:38.590Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B21 with round number 21 with QC 18 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:38.590Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B22 with round number 22 with QC 21 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:38.592Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B22 with round number 22 with QC 21 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:38.592Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B22 with round number 22 with QC 21 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:38.600Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B21 with round number 21 with QC 18 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:38.602Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B21 with round number 21 with QC 18 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:38.602Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B21 with round number 21 with QC 18 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:38.603Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B21 with round number 21 with QC 18 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:38.605Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B21 with round number 21 with QC 18 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:38.605Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B21 with round number 21 with QC 18 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:38.614Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B21 with round number 21 with QC 18 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:38.616Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B21 with round number 21 with QC 18 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:38.616Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B21 with round number 21 with QC 18 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:38.617Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B21 with round number 21 with QC 18 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:38.619Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B21 with round number 21 with QC 18 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:38.619Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B21 with round number 21 with QC 18 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:38.628Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B21 with round number 21 with QC 18 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:38.630Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B21 with round number 21 with QC 18 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:38.631Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B21 with round number 21 with QC 18 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:38.672Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B23 with round number 23 with QC 22 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:38.672Z INFO  consensus::core] Committed B21 with QC 18
+[2022-07-23T18:33:38.672Z INFO  consensus::core] Committed B21 -> jMUZAvt9v+sUBdg/EHUHt/hxylivp31F74CFdVkKgGE=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> 3qOJrYUcEL405YOL5dKV0xpqD2CznNVwmVuEmzQTIsY=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> Itm0DGFZzcJQVmSPKtNEBi8vH1yhwGtSblZlgqzGRsE=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> gYHYVhrH2qf7JIbGndOQYk2/8b8vpFTL3RM8gCxgkbM=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> 8BiHKI5bHw14hxfgim5hdtmk+ylffzq0u4LGgGXGIhA=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> zOzhh1YDgGXiAWf2w6LP6s5TnI/GnIdt4+Y6rK4NTDE=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> Nmw27Ko6OfSbjdSaR7+zG9sU7P0+884/6delWPIOhH8=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> 7fPNSiGTsPDF6WgjB3GddZFwhhHr098j0mMAjm3hCok=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> 2ddFAK4oP8P8wVjsgk2lqnTzD6xxW3cc++FKqI1lDug=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> EbEiuGT3K3HtmCTqQWkPX+NTEgnvZnw3RlNHymYIaug=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> 7IMFbQz7z3Igb94dNXusWxKZtkdByynUSTkQq4ZIaNo=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> G9NR80a/aK7uCtitIWBrNphQZtl9FWS1mgkQRufNZ/o=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> 5fbVpZY3Ohabj7axtp6tsDcLP5tHzsd5IBiDXOjMP9U=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> CWS+kyc2QB4E1bUVYEMm62bGmaOh8QA8aIjPZ/GrX5A=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> BwtMvfTSsk2sGGQcRYzkHi3dUREJjeYLS/nFKOUmCW4=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> Ychk8Rpy7xWyi9RxtXBEjdFziwG3cIK+3ZMPwByvOIs=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> TrgOaG185BxVf0A9l8yJ7jy52kmu+iIdyoC2vXnPuv8=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> DqS0L0EsxBddkzQAKQ/8yy/UMExX4DbDpu/dA2SPYJ0=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> OXhhSF3I/ej4xJScCoOtPbquOJYte1/woIpNLxU6T1k=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> GjaWyOq+UylIHWRyxiiLePAK5Hj+df63N6e59veXVUU=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> TBh4wvctwxdj9niQddkn9gxZOuyR/zj1yCJnA7N2Agg=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> e+PHOzWfzW4huVrRESoh3Z48c9RN+eg4wbydbK8P37Q=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> ghfT7c1cT27+7ARAb4ttvNs2qNOc2OTngY5tketOsIU=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> MKOKUStWqiGUjvIbF7C+43uvCa8Shj9Qcr9s7n66o/0=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> 1l76dfUUASg/I7+kImr6MJ+WU0uVz0joybaRyU0xPO0=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> j8xz0/D5nl2H7go8Rsd/jwncrJJNkhpVPGoeoTjglg0=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> Omxd3lPJt2fxhOHmtAEf3O5d7U89fKgtL3ukhMdPz3g=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> Zp2GZjQfLdaTg3+j3JwWDM2wTqxv1VRFu5WVjZiQutE=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> 7GgorPSAcojs89HxzyhNyHel+jAp0JfjoKMxGgWGWAg=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> jjypJaTkmecOoyVj50yfJyrbZHNnI/gx2XiLocpxnn8=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> N/ayqV90dLZGeyMenDV6PeapUWUslfuXdsdzuo4UzOE=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> WNqRkg4ZVhwdm2q7+yVE8274pRAIQybxRi+X7wHVDpQ=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> z0cwnoDdImSnyUSTBldYgDP+HUruL8T+Wu96MDcpiCg=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> KP1SGM/udJouLD5O+KF9GqcxPDi0dq9WqVywS3MTKJg=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> oSVTCCvV2lBcNntC2469VMCDftCs7rQp8BhxDLtF8Lo=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> LqM/ktTwkTSLUVWJB0RNzg35S+FAdg1Blrjb6o3Xg4Q=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> VIn3TEsZw/g9joggnth3YajfcA0SfIUOi2O5f285Ckw=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> F8WI4OXYyHBCYj50z3iVN2x7l+KcLjbnO5o2/sJDzGg=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> 6GIzUTFLk6YZiVEDaa7kHKmFUJ9oneNAqqoAMmGwaBU=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> KFzv5xfritPBBqfJflt1ZRyM2Sd7gdAYtw1dG7VUTEE=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> ZeX+bxpH7Lcyr4mxSB6tUvs3R50B3deRFQeqeD3nd9Y=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] Committed B21 -> VWS4YZq1aLJrC4LrdphraRyTndGeraVaRlICFgBa5QY=
+[2022-07-23T18:33:38.673Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B23 with round number 23 with QC 22 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:38.673Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B23 with round number 23 with QC 22 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:38.682Z INFO  consensus::proposer] Created B24
+[2022-07-23T18:33:38.682Z INFO  consensus::proposer] Created with Round number 24 with QC 23 
+[2022-07-23T18:33:38.682Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B24 with round number 24 with QC 23 from leader rbc6NMLFt9/kjrbG
+[2022-07-23T18:33:38.682Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B24 with round number 24 with QC 23 from leader rbc6NMLFt9/kjrbG
+[2022-07-23T18:33:38.698Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B25 with round number 25 with QC 24 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:38.699Z INFO  consensus::core] Committed B23 with QC 22
+[2022-07-23T18:33:38.699Z INFO  consensus::core] Committed B23 -> vtcaZ8icvreHOeCSgbFzJrUmjvh32f7KQv71jR5Z4w8=
+[2022-07-23T18:33:38.699Z INFO  consensus::core] Committed B23 -> YpxmwVlPsopFpg+YiJfy25XYxqF1GKyvWDAU/eVZf+A=
+[2022-07-23T18:33:38.699Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B25 with round number 25 with QC 24 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:38.699Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B25 with round number 25 with QC 24 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:38.768Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B26 with round number 26 with QC 25 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:38.769Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B26 with round number 26 with QC 25 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:38.769Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B26 with round number 26 with QC 25 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:38.776Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B27 with round number 27 with QC 26 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:38.777Z INFO  consensus::core] Committed B25 with QC 24
+[2022-07-23T18:33:38.777Z INFO  consensus::core] Committed B25 -> fW9rKtVYAxQZrtIe0wIKFIyh2ZnEUe8DvBkXopBSFZk=
+[2022-07-23T18:33:38.777Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B27 with round number 27 with QC 26 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:38.777Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B27 with round number 27 with QC 26 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:38.809Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B28 with round number 28 with QC 27 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:38.810Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B28 with round number 28 with QC 27 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:38.810Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B28 with round number 28 with QC 27 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:38.815Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B29 with round number 29 with QC 28 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:38.816Z INFO  consensus::core] Committed B27 with QC 26
+[2022-07-23T18:33:38.816Z INFO  consensus::core] Committed B27 -> u7S/khKLMCcZ6D2bEWZu8/9H6EmZSUqD0r/MKxOlE2M=
+[2022-07-23T18:33:38.816Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B29 with round number 29 with QC 28 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:38.816Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B29 with round number 29 with QC 28 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:38.817Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:39.820Z WARN  consensus::core] Timeout reached for round 29
+[2022-07-23T18:33:39.826Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:40.305Z WARN  network::reliable_sender] Failed to connect to 127.0.0.1:9009 (retry 5): Connection refused (os error 111)
+[2022-07-23T18:33:40.841Z WARN  consensus::core] Timeout reached for round 30
+[2022-07-23T18:33:40.844Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:40.884Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B31 with round number 31 with QC 28 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:40.887Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B31 with round number 31 with QC 28 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:40.887Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B31 with round number 31 with QC 28 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:40.901Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B31 with round number 31 with QC 28 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:40.903Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B31 with round number 31 with QC 28 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:40.903Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B31 with round number 31 with QC 28 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:40.903Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B32 with round number 32 with QC 31 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:40.904Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B32 with round number 32 with QC 31 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:40.904Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B32 with round number 32 with QC 31 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:40.916Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B31 with round number 31 with QC 28 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:40.918Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B31 with round number 31 with QC 28 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:40.918Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B31 with round number 31 with QC 28 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:40.918Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B33 with round number 33 with QC 32 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:40.919Z INFO  consensus::core] Committed B28 with QC 27
+[2022-07-23T18:33:40.919Z INFO  consensus::core] Committed B28 -> d5pr+onWsnrKkAIXsw5Z92TRKSSfY/km4Yc7+norL8A=
+[2022-07-23T18:33:40.919Z INFO  consensus::core] Committed B28 -> ibdbrX47dv8zd/cs2v/hjRJYGtIt/8YJdKWMWlfngXY=
+[2022-07-23T18:33:40.919Z INFO  consensus::core] Committed B31 with QC 28
+[2022-07-23T18:33:40.919Z INFO  consensus::core] Committed B31 -> KyoMl2cQD4JH/wGIODdPUZsb3UhtFe5FQitsvOlTDl0=
+[2022-07-23T18:33:40.919Z INFO  consensus::core] Committed B31 -> a/FcwYwUSqW2JCQS0G4ZNe+SR7Upsj+xatw2B/Q0oMI=
+[2022-07-23T18:33:40.919Z INFO  consensus::core] Committed B31 -> HVvEPbGZRTxvYE/0oKiaA9+demoq5fZmy008dqyUNrU=
+[2022-07-23T18:33:40.919Z INFO  consensus::core] Committed B31 -> QmzwyHH+PiGhKJAf3n1l45guAhPMXF4TgzXbqTteV80=
+[2022-07-23T18:33:40.919Z INFO  consensus::core] Committed B31 -> jJzYkJzWkMm45h8Oyrm/KxtvZCG4bkddS1P70gC9zcY=
+[2022-07-23T18:33:40.919Z INFO  consensus::core] Committed B31 -> +kF0CoO0Pcs75aHotmuwnNFBtN2EuANiS0zpmFU5KN8=
+[2022-07-23T18:33:40.919Z INFO  consensus::core] Committed B31 -> 0o+3S0Zl5gOqpMsuR7QSFer6J0PKO3LiZ3/0Kl2HeEU=
+[2022-07-23T18:33:40.919Z INFO  consensus::core] Committed B31 -> muGiwkMSk0LbKK+GQsMBeCLa5u/QNyCx2nvDZGCJ3iA=
+[2022-07-23T18:33:40.919Z INFO  consensus::core] Committed B31 -> vIr9Ti8g4RHuea8gYI/XGxGwGSIp5cDBHuyNao2f5wQ=
+[2022-07-23T18:33:40.919Z INFO  consensus::core] Committed B31 -> eDlonVpSTYUld+/0KEkvi1Dlf2tw/EaJSisOoBH0Yg0=
+[2022-07-23T18:33:40.919Z INFO  consensus::core] Committed B31 -> odkFTLe7b4cu0dd205cUXi9y4xE6YTRmxHJLwuy4oik=
+[2022-07-23T18:33:40.919Z INFO  consensus::core] Committed B31 -> Uv7BqjIyXaZn+2r0YKyyYfun7Ge654MbF9AwjMIS8Ng=
+[2022-07-23T18:33:40.919Z INFO  consensus::core] Committed B31 -> xNYcwDQbJpOJUNYvfalv6CTAubz87zv6Q9lvDaUiyjE=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> mvjuLV07k98KRHqAaOl20t76bd1yZD8QEMDLqNJ7hg4=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> 7JjPsXjbsJnXggoHyISyvK7V1T4MbRgbPgn5HH7hGnk=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> dOKBm2gwHRZ1oi95o+CQ7cxKj2nFVRqU1aeC5WSusQc=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> v5ENv4q5wEDHcDk+k1U2kvSYIwIiHXRMVJFkzSSxlK4=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> yRiqwv+/0qAV5UzgL0mZquM/toOCdgSWWyJcJNstpok=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> LrPu3Kx4RjCYnDVEH1hdD3e3MAbjrGGMC/Y8TO79bRk=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> zNIwMJSsOk3AaL73Oq7fYh9Bj4GtUoTcrg3MDYeuKpg=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> UFKp3omb5kbu3Xb3x7EuqGuapY+2qPw1wCWEAt79jyY=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> 3HHT0fHgAmnwlNAMfPa+MHIo0+4n7sTtGkdjt7b7W8E=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> h9tzXvXlZv5hJOX4Q22kiAKWo+NdRV5es4vqUj8cIBI=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> OnLvPSmbmJ4XF8kpgqgYyK0HEiXVB7wfFHddsTy6rUs=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> tZZ02ljqMFdOp0fjFjd//oXFTBYarvUxE2jpUZ7qs1Q=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> TdZirgdjVSacGxh7dqUI2OrWan3gT4kONwvhElPtkpM=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> XlQGLweT+BDo74l+lrvZr2yOQC1E77dRL0paWIaQY58=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> jjq7FWOHpG01zffq79qkN1zB5rWo5Iso9sOQUNtzM74=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> R6lOegvXeVZtM64EW025G4b9v3vL8FcZYK/QgTa7Jc0=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> 1CBUhmQHd+iOpp9zvj7gNyiTyG0WMTGyFc1FwbNtuss=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> AMD21S5Ka5dLVSF717wvqlqShdAfCu0TwvTPJ3ClEXs=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> TU+7wccqr1ngO8JH7WNmB62SEG1l5mLWldqUJJuZG3M=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> /7YAMSl/K57XlvGaUDavv05qQIUxgFVnqdEQW+XbAug=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> pIm5TPxvuKR4YDQdEJ9JL5thA/VwyLr49yxRQT9enV8=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> 9PcuzqmQldUACWViEtaO3Em7MzLnGpC9bmwSWMou9aY=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> 18RFmXKz9s2wiSBHK2O8UvzFud3yEkq7tCybrEe1egI=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> E5/pqP4buudiM61X+gS7hV7qr6u/IO+GUwLYuXbhCp8=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> jGpN88AEZVXIzRM6LKifElwb2LWaHwOB2jUQPoGPdjQ=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> 916HrfNCB0DYJ3qjGat+GIuSw9SfPeMj/ThkypbC8LM=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> P2mrCzrUg3HC/LgOXblqa6GQSSQ4mvy/OVs9CeVEJX4=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> 4lK2exBhWfr1Kw2mEOdexYiZaf9c2nFcEFBFFGJgY1c=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] Committed B31 -> j5a1Qj1f3oHYldBWkblPGMtsvasKkV8F9dTepERsI7k=
+[2022-07-23T18:33:40.920Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B33 with round number 33 with QC 32 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:40.920Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B33 with round number 33 with QC 32 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:40.929Z INFO  consensus::proposer] Created B34
+[2022-07-23T18:33:40.929Z INFO  consensus::proposer] Created with Round number 34 with QC 33 
+[2022-07-23T18:33:40.930Z INFO  consensus::core] Committed B32 with QC 31
+[2022-07-23T18:33:40.930Z INFO  consensus::core] Committed B32 -> OkvQ3SoIn1kxvVk9v4FyTCJZwnPmYTUP3/Yk2g1LGsg=
+[2022-07-23T18:33:40.930Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B34 with round number 34 with QC 33 from leader rbc6NMLFt9/kjrbG
+[2022-07-23T18:33:40.930Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B34 with round number 34 with QC 33 from leader rbc6NMLFt9/kjrbG
+[2022-07-23T18:33:40.949Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B35 with round number 35 with QC 34 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:40.950Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B35 with round number 35 with QC 34 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:40.950Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B35 with round number 35 with QC 34 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:40.954Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B36 with round number 36 with QC 35 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:40.955Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B36 with round number 36 with QC 35 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:40.955Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B36 with round number 36 with QC 35 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:40.962Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B37 with round number 37 with QC 36 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:40.963Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B37 with round number 37 with QC 36 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:40.963Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B37 with round number 37 with QC 36 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:40.975Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B38 with round number 38 with QC 37 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:40.976Z INFO  consensus::core] Committed B36 with QC 35
+[2022-07-23T18:33:40.976Z INFO  consensus::core] Committed B36 -> 7VfvvbBCIDi+Zq3NBXlJj1dp73RH0rvobBGNLFC3z2o=
+[2022-07-23T18:33:40.976Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B38 with round number 38 with QC 37 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:40.977Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B38 with round number 38 with QC 37 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:40.986Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B39 with round number 39 with QC 38 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:40.987Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B39 with round number 39 with QC 38 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:40.987Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B39 with round number 39 with QC 38 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:40.987Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:42.002Z WARN  consensus::core] Timeout reached for round 39
+[2022-07-23T18:33:42.006Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:43.007Z WARN  consensus::core] Timeout reached for round 40
+[2022-07-23T18:33:43.027Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B41 with round number 41 with QC 38 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:43.027Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:43.033Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B41 with round number 41 with QC 38 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:43.033Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B41 with round number 41 with QC 38 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:43.039Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B41 with round number 41 with QC 38 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:43.041Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B41 with round number 41 with QC 38 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:43.041Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B41 with round number 41 with QC 38 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:43.042Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B42 with round number 42 with QC 41 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:43.043Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B42 with round number 42 with QC 41 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:43.043Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B42 with round number 42 with QC 41 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:43.055Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B41 with round number 41 with QC 38 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:43.059Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B41 with round number 41 with QC 38 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:43.059Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B41 with round number 41 with QC 38 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:43.060Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B43 with round number 43 with QC 42 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:43.061Z INFO  consensus::core] Committed B38 with QC 37
+[2022-07-23T18:33:43.061Z INFO  consensus::core] Committed B38 -> +hqPYHgbzCesDI9oR8RHmFoQQ2X7sZB963K0giV6TcM=
+[2022-07-23T18:33:43.061Z INFO  consensus::core] Committed B41 with QC 38
+[2022-07-23T18:33:43.061Z INFO  consensus::core] Committed B41 -> PQl2eORwjqfKXSJwOfMPIvLVETH6HIAGGTiaETefbFg=
+[2022-07-23T18:33:43.061Z INFO  consensus::core] Committed B41 -> /Uy6kAP3qYCiVMGJ2pmGA4HLd4b87eibzeVk/Ep4jmY=
+[2022-07-23T18:33:43.061Z INFO  consensus::core] Committed B41 -> Xw+r4vDc8kPVHLmLZwS6NjW8cjHKxMlFQNx7B5eSB+0=
+[2022-07-23T18:33:43.061Z INFO  consensus::core] Committed B41 -> +a+9oQAEH/x60enMrue2J10p69wfXSEnmpFenZohBnk=
+[2022-07-23T18:33:43.061Z INFO  consensus::core] Committed B41 -> ZWbzcyuBDKdaqI371o4COOnjHFiyC7zOKglPkb+ryTk=
+[2022-07-23T18:33:43.061Z INFO  consensus::core] Committed B41 -> BEGzb8EUqYuXZxcYONoktkMTDtMxH/BggNwebrhJCjQ=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> zu1TVJLt2Mfh2GRTRNLfaE00Gh6ttYxfZI17r9sZcoY=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> 0Tdf9MXq/dJvstAi4Qoi1owlzDgMJ9xbioSt4gctKd8=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> Rs4uDhlLXWptxfwkdzCJib465GB0rFHPBCPNQERKmX0=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> 7sN2PNgOT7skJzAcFJFI6h6nKbvVEa+SF+mgaSN6cJ0=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> 0OIzIuuD/Th8FKXk7XvDAPrHFJ5u3bwsp1fCB5nAHZI=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> ZUnWRG3Zy08y78PJJQ8g3wtSzkps5jSxoI/iDJSOhD8=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> hRjjdi26XT0c/IZRGIVF86K26sBzA2dncvZDEVaa5c0=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> y9rCHdMZh169OeaRC9ug4shmcwZqueq7CK+icwhQXtI=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> UHUtArfMNfft8Ko2i0XWGqaS3LBT0AriDbo5H5syIao=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> IoumOJFvWDElXGdH5hSJWtfu04YWQ4J6vlcts5NO17Y=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> l8fOJU9QyNTNlDxXF7DTavzVZv5RglIh0nzg4KTPb78=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> oYbzjp4bDFv2NOR4gaNIp2U0h8GqJOR5SBotqqNR9eE=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> 3Xbu2UMA4YHpqiP/bqZFqemb2bZqtRLawzOppnpuw9s=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> EZCE9gVmeVJEOm1ebQUtTXtz6f8i29ANT0j18eMVw5k=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> JgIovPcKVdmPhCHo+77/mQo0X28mwNM6ZNOtjAIB5z0=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> hG1PzVeygf1neL+mp0STJck6fWWyR0gYjiFOhnqMab8=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> 5Kq6bTCgNCj5/ohH3/Hhq4ldixRnSmOwLFkoasWaZFY=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> ZtjoZsd5GgORqx7DSClVi9Nh6LIsT6xeNxjaCv77N9w=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> sLsX/c1lQX16t1P+SXXj1NtketW5kV6zHshGHcx2MUc=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> MvVis/V6l3HIBXG+BIabLX+Yl1POVE4vZKPrKC7ayTM=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> Vcl3pGmXZXImZ9MGDj94PQKYEWtV6I2dEA1F4VbK1aE=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> KQb7fqL/xpbYhWcQpF0niqEKaugc59QZ1/IPu0lyPkg=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> 1dzU/06vt5HjahA/c3bX1vF28ykKCYxV4vQdBqCtVlY=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> lDR9AstYRLQpt8MouN//L6wEbfQHNcHGlDiMpXCdVyY=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> FuZY/kGiUtlbLr/4N2q1k7vpWw9KartWGnpaT4QJTP4=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> 1jlyoY2rpELOhaXU9Ugt9RGYbvRd5kSeYCZQqmLBY3k=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> PGXa0D1t9dq3UoMectrbySbmQziuQDovb8Nn/y1fpoo=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> 8Hzc2YjeIAOI2ZrcaFNGem3sl1SC/uLNL0XbnZYatIc=
+[2022-07-23T18:33:43.062Z INFO  consensus::core] Committed B41 -> fHN0yubHZabdV7VP4fGbpfE3CV0rIOLE2J14SY4bq04=
+[2022-07-23T18:33:43.063Z INFO  consensus::core] Committed B41 -> VutepRdM1zTIj/q/UpAFlz6KV7bNXMTbE9vq1PJxaYY=
+[2022-07-23T18:33:43.063Z INFO  consensus::core] Committed B41 -> e5AqN1BREXj8B8+ZaAFL9wUsg3VQqO/pPnxBmWHCf98=
+[2022-07-23T18:33:43.063Z INFO  consensus::core] Committed B41 -> 7aWaD4+Uc4aI3CHz6IPQ7njrMkIyBpUreDCdzYhWN/I=
+[2022-07-23T18:33:43.063Z INFO  consensus::core] Committed B41 -> wOxLvqfk48d4uTI1OT8y2Ed9FujnEzYROWrSqCseoxg=
+[2022-07-23T18:33:43.063Z INFO  consensus::core] Committed B41 -> JnovTMduQ6Xhgi8VkFmyqC/3y1lvuw1WyikZPR418/k=
+[2022-07-23T18:33:43.063Z INFO  consensus::core] Committed B41 -> RMNias8N99i6fw57YD+TLTxiRF0F8SMDx6zsYI0bFyM=
+[2022-07-23T18:33:43.063Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B43 with round number 43 with QC 42 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:43.063Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B43 with round number 43 with QC 42 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:43.071Z INFO  consensus::proposer] Created B44
+[2022-07-23T18:33:43.071Z INFO  consensus::proposer] Created with Round number 44 with QC 43 
+[2022-07-23T18:33:43.071Z INFO  consensus::core] Committed B42 with QC 41
+[2022-07-23T18:33:43.071Z INFO  consensus::core] Committed B42 -> NZ//0CQDL1sJud/U40tPCrZymPKdCbODgmExptdBgM4=
+[2022-07-23T18:33:43.071Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B44 with round number 44 with QC 43 from leader rbc6NMLFt9/kjrbG
+[2022-07-23T18:33:43.071Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B44 with round number 44 with QC 43 from leader rbc6NMLFt9/kjrbG
+[2022-07-23T18:33:43.072Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B41 with round number 41 with QC 38 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:43.077Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B41 with round number 41 with QC 38 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:43.077Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B41 with round number 41 with QC 38 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:43.090Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B41 with round number 41 with QC 38 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:43.099Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B41 with round number 41 with QC 38 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:43.099Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B41 with round number 41 with QC 38 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:43.099Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B45 with round number 45 with QC 44 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:43.100Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B45 with round number 45 with QC 44 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:43.100Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B45 with round number 45 with QC 44 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:43.108Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B46 with round number 46 with QC 45 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:43.109Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B46 with round number 46 with QC 45 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:43.109Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B46 with round number 46 with QC 45 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:43.117Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B47 with round number 47 with QC 46 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:43.118Z INFO  consensus::core] Committed B45 with QC 44
+[2022-07-23T18:33:43.118Z INFO  consensus::core] Committed B45 -> PE3D+MbT07CrbrJOSeta8h33yb+I4VM9qzjk7U6/WFw=
+[2022-07-23T18:33:43.118Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B47 with round number 47 with QC 46 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:43.118Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B47 with round number 47 with QC 46 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:43.121Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B48 with round number 48 with QC 47 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:43.125Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B48 with round number 48 with QC 47 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:43.125Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B48 with round number 48 with QC 47 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:43.131Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B49 with round number 49 with QC 48 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:43.132Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B49 with round number 49 with QC 48 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:43.132Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B49 with round number 49 with QC 48 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:43.133Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:44.138Z WARN  consensus::core] Timeout reached for round 49
+[2022-07-23T18:33:44.146Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:45.170Z WARN  consensus::core] Timeout reached for round 50
+[2022-07-23T18:33:45.180Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:45.205Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B51 with round number 51 with QC 48 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:45.207Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B51 with round number 51 with QC 48 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:45.207Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B51 with round number 51 with QC 48 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:45.208Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B51 with round number 51 with QC 48 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:45.210Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B51 with round number 51 with QC 48 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:45.210Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B51 with round number 51 with QC 48 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:45.212Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B52 with round number 52 with QC 51 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:45.213Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B52 with round number 52 with QC 51 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:45.213Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B52 with round number 52 with QC 51 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:45.226Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B51 with round number 51 with QC 48 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:45.229Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B51 with round number 51 with QC 48 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:45.229Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B51 with round number 51 with QC 48 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:45.230Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B53 with round number 53 with QC 52 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 with QC 48
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> yxQzzyBlv0TR5Int0EDE07Q76XGGIvCQiEjsyh1kS94=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> k2945WEi0k/zVevfPjEgTP7SNY7rW2KXziSJ4bGdOAE=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> mp9hvn0T4Rb9N5HQgcTebVXbyyl5x1amsFSqazLUR2c=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> ao8KojKplTkwr57GPYtWy/g9XnX2to+08ifPEoDXwq4=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> xfy76lSkGJlqvy2rm+W1jxTsOpq8gSOP39Jbk+9fNQs=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> jbQ5t00zsicM+zgxzeKvZOygUswb39TiPhRyGDs52xA=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> 9xiSqXp4WkGYNrAhheNfkWBouZVeLQjEuzoUy+xxJh4=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> nyQfxKQLF/PJQCDlub10/UUbAuLfqndRhmhHbLT6nuM=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> sdAf/teL3UKV/XYJnLjKk+HyBJhfLnwCnJWPTrfPg/A=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> DrD9TXxQOjlLdo3hXNCO5/SbV8Fc5KHvlIm13oU8Bp8=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> SDOd+G/3W7qd+nAUoI+T73KlZM2bi9O/E94ulHlFzKk=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> Ac1pZLz26ZYZ4HziRTLcViUOEg3tHuc1JQatIIOZieY=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> OxAZrzejRgawUI7Ou/rjA2xtsjgLM1UR4FGsU6dBgCk=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> VK96C/A9yn2AOOsqoQrMKscdpu0qhfIGUzqJN4cNKxs=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> W57ToKMlt1NqmckUcxR5PxavBCQPFaYEV8lpmBBBOLw=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> pAd/DpDKoCpH5my/+icHvIxgpaBbUp9tYvpAIQrKqqY=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> +qWBDLIbWqUs/TwZAeJfgVe/MBhOavWjVdYEFr+WLRU=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> MgqriiqRq+EQSb0xlV5g75luE69CuUIFMyrMLDAb/n0=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> QUYRk56wvPzWJzr1m16wnyn3FGb0KglICFT85S+5KKE=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> jaFya+srtHIUgJVXtilOBem9Fz9dX0euIIgrFHEDk1w=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> i2m5hwxR+siLffJKW9/SAIx7VVR02Q2A+WcruvpehqM=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> nZRPa3fRgbXX+z0si5Ksaf9G6cznNjeKmISX4+wQRlQ=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> uq81L3PA3pBPIJ6b/QWCNWSl8YJTVS5DbUa02TOXP9M=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> hWfZ4iw74BlO/I3Dfrl6L9uTQ3X1ueytCnMCfuc+kG8=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> IGuVsF21zYV7VlWZBLlKvDX0GfmSDt8KkzxkOJCkefg=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> KvGRnXQuNX41yNhtEhSABqvK3vkFsZaGY+15b06tEvQ=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> j2nHaxpZ8Qu2gncmXxWb3aQ6w8T79zjw8yCZ7PCIOTc=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> teFTWjSDvZIN7kMCK+lCRnIjTeFxte7XP5KOHjiazIQ=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> ++8N6ukWdfBNPMt1wodoPBJRR3xfMT6pTS3utyIvWww=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> DnG0eE6ULHoTYtcsnoX1+XdzWP8Cun2PvnDsmJo/3Dw=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> 4XPFegKH+qmH12W1HK8f5c68nlxrkEyD5QCaK7VtwaM=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> 0ueA6fogqAaDX0tJYLXe0KJBAUvyq0HL+O6LnbBfrlc=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> geW/6MiCVIObIKN4VcsSbWBsgdaNN4vkVnJFKsuQdwg=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> fuNwMUDAx3Q7wGO5oquq0gcDjA/2Bjf22iqGmt10i3I=
+[2022-07-23T18:33:45.231Z INFO  consensus::core] Committed B51 -> 3+WnU8y7OEmwavSjA6hsW56J8WYvKuXjVYpwsVQy3qk=
+[2022-07-23T18:33:45.232Z INFO  consensus::core] Committed B51 -> aCcp438nnKYoyPOBxrY2yqql+eKCOUN1tH0l8eJC7eQ=
+[2022-07-23T18:33:45.232Z INFO  consensus::core] Committed B51 -> DXDiy+wLz2nMBR1kk4JFYNIMLXToy6JUGzZoG4Bq++8=
+[2022-07-23T18:33:45.232Z INFO  consensus::core] Committed B51 -> 2/Tdy0BAxW7AVviMwbj1+CjT8dWwkisAmPa6PwlpL/w=
+[2022-07-23T18:33:45.232Z INFO  consensus::core] Committed B51 -> hjGTr0XOx4r6xZDPqaYA8wkYeitXx6B6Wtg8P5linpw=
+[2022-07-23T18:33:45.232Z INFO  consensus::core] Committed B51 -> rS1a3gV/8ErHNS66458h688WE+UAuGGGn/ToG9zHFMs=
+[2022-07-23T18:33:45.232Z INFO  consensus::core] Committed B51 -> j1KP8x0MGelh7XkafLigOcMHrzMRGYGfIjmoAx4w0Ww=
+[2022-07-23T18:33:45.232Z INFO  consensus::core] Committed B51 -> C21uhSKrT0OshRO+vuD2oepIlV/uHMGEfnYapk4bGjU=
+[2022-07-23T18:33:45.232Z INFO  consensus::core] Committed B51 -> L7+BlOstKapTXvriERZngaDAxobl9IJROGKVpFPLvY0=
+[2022-07-23T18:33:45.232Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B53 with round number 53 with QC 52 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:45.232Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B53 with round number 53 with QC 52 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:45.239Z INFO  consensus::proposer] Created B54
+[2022-07-23T18:33:45.239Z INFO  consensus::proposer] Created with Round number 54 with QC 53 
+[2022-07-23T18:33:45.239Z INFO  consensus::proposer] Created B54 -> YzKvhxlPpvTE7REmZWjJWw9KkWZX14RB5QVmFU2NjLc=
+[2022-07-23T18:33:45.239Z INFO  consensus::core] Committed B52 with QC 51
+[2022-07-23T18:33:45.239Z INFO  consensus::core] Committed B52 -> DnG0eE6ULHoTYtcsnoX1+XdzWP8Cun2PvnDsmJo/3Dw=
+[2022-07-23T18:33:45.239Z INFO  consensus::core] Committed B52 -> OxAZrzejRgawUI7Ou/rjA2xtsjgLM1UR4FGsU6dBgCk=
+[2022-07-23T18:33:45.239Z INFO  consensus::core] Committed B52 -> rS1a3gV/8ErHNS66458h688WE+UAuGGGn/ToG9zHFMs=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> sdAf/teL3UKV/XYJnLjKk+HyBJhfLnwCnJWPTrfPg/A=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> fuNwMUDAx3Q7wGO5oquq0gcDjA/2Bjf22iqGmt10i3I=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> KvGRnXQuNX41yNhtEhSABqvK3vkFsZaGY+15b06tEvQ=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> DXDiy+wLz2nMBR1kk4JFYNIMLXToy6JUGzZoG4Bq++8=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> uq81L3PA3pBPIJ6b/QWCNWSl8YJTVS5DbUa02TOXP9M=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> DrD9TXxQOjlLdo3hXNCO5/SbV8Fc5KHvlIm13oU8Bp8=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> geW/6MiCVIObIKN4VcsSbWBsgdaNN4vkVnJFKsuQdwg=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> mp9hvn0T4Rb9N5HQgcTebVXbyyl5x1amsFSqazLUR2c=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> 2/Tdy0BAxW7AVviMwbj1+CjT8dWwkisAmPa6PwlpL/w=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> IGuVsF21zYV7VlWZBLlKvDX0GfmSDt8KkzxkOJCkefg=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> W57ToKMlt1NqmckUcxR5PxavBCQPFaYEV8lpmBBBOLw=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> jbQ5t00zsicM+zgxzeKvZOygUswb39TiPhRyGDs52xA=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> pAd/DpDKoCpH5my/+icHvIxgpaBbUp9tYvpAIQrKqqY=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> nZRPa3fRgbXX+z0si5Ksaf9G6cznNjeKmISX4+wQRlQ=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> QUYRk56wvPzWJzr1m16wnyn3FGb0KglICFT85S+5KKE=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> jaFya+srtHIUgJVXtilOBem9Fz9dX0euIIgrFHEDk1w=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> hWfZ4iw74BlO/I3Dfrl6L9uTQ3X1ueytCnMCfuc+kG8=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> 0ueA6fogqAaDX0tJYLXe0KJBAUvyq0HL+O6LnbBfrlc=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> ++8N6ukWdfBNPMt1wodoPBJRR3xfMT6pTS3utyIvWww=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> j2nHaxpZ8Qu2gncmXxWb3aQ6w8T79zjw8yCZ7PCIOTc=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> yxQzzyBlv0TR5Int0EDE07Q76XGGIvCQiEjsyh1kS94=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> 3+WnU8y7OEmwavSjA6hsW56J8WYvKuXjVYpwsVQy3qk=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> VK96C/A9yn2AOOsqoQrMKscdpu0qhfIGUzqJN4cNKxs=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> j1KP8x0MGelh7XkafLigOcMHrzMRGYGfIjmoAx4w0Ww=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> C21uhSKrT0OshRO+vuD2oepIlV/uHMGEfnYapk4bGjU=
+[2022-07-23T18:33:45.240Z INFO  consensus::core] Committed B52 -> 4XPFegKH+qmH12W1HK8f5c68nlxrkEyD5QCaK7VtwaM=
+[2022-07-23T18:33:45.241Z INFO  consensus::core] Committed B52 -> nyQfxKQLF/PJQCDlub10/UUbAuLfqndRhmhHbLT6nuM=
+[2022-07-23T18:33:45.241Z INFO  consensus::core] Committed B52 -> MgqriiqRq+EQSb0xlV5g75luE69CuUIFMyrMLDAb/n0=
+[2022-07-23T18:33:45.241Z INFO  consensus::core] Committed B52 -> 9xiSqXp4WkGYNrAhheNfkWBouZVeLQjEuzoUy+xxJh4=
+[2022-07-23T18:33:45.241Z INFO  consensus::core] Committed B52 -> SDOd+G/3W7qd+nAUoI+T73KlZM2bi9O/E94ulHlFzKk=
+[2022-07-23T18:33:45.241Z INFO  consensus::core] Committed B52 -> teFTWjSDvZIN7kMCK+lCRnIjTeFxte7XP5KOHjiazIQ=
+[2022-07-23T18:33:45.241Z INFO  consensus::core] Committed B52 -> Ac1pZLz26ZYZ4HziRTLcViUOEg3tHuc1JQatIIOZieY=
+[2022-07-23T18:33:45.241Z INFO  consensus::core] Committed B52 -> i2m5hwxR+siLffJKW9/SAIx7VVR02Q2A+WcruvpehqM=
+[2022-07-23T18:33:45.241Z INFO  consensus::core] Committed B52 -> ao8KojKplTkwr57GPYtWy/g9XnX2to+08ifPEoDXwq4=
+[2022-07-23T18:33:45.242Z INFO  consensus::core] Committed B52 -> aCcp438nnKYoyPOBxrY2yqql+eKCOUN1tH0l8eJC7eQ=
+[2022-07-23T18:33:45.242Z INFO  consensus::core] Committed B52 -> L7+BlOstKapTXvriERZngaDAxobl9IJROGKVpFPLvY0=
+[2022-07-23T18:33:45.242Z INFO  consensus::core] Committed B52 -> +qWBDLIbWqUs/TwZAeJfgVe/MBhOavWjVdYEFr+WLRU=
+[2022-07-23T18:33:45.242Z INFO  consensus::core] Committed B52 -> k2945WEi0k/zVevfPjEgTP7SNY7rW2KXziSJ4bGdOAE=
+[2022-07-23T18:33:45.242Z INFO  consensus::core] Committed B52 -> xfy76lSkGJlqvy2rm+W1jxTsOpq8gSOP39Jbk+9fNQs=
+[2022-07-23T18:33:45.242Z INFO  consensus::core] Committed B52 -> hjGTr0XOx4r6xZDPqaYA8wkYeitXx6B6Wtg8P5linpw=
+[2022-07-23T18:33:45.242Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B54 with round number 54 with QC 53 from leader rbc6NMLFt9/kjrbG
+[2022-07-23T18:33:45.242Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B54 with round number 54 with QC 53 from leader rbc6NMLFt9/kjrbG
+[2022-07-23T18:33:45.257Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B55 with round number 55 with QC 54 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:45.259Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B55 with round number 55 with QC 54 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:45.259Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B55 with round number 55 with QC 54 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:45.265Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B56 with round number 56 with QC 55 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:45.266Z INFO  consensus::core] Committed B54 with QC 53
+[2022-07-23T18:33:45.266Z INFO  consensus::core] Committed B54 -> YzKvhxlPpvTE7REmZWjJWw9KkWZX14RB5QVmFU2NjLc=
+[2022-07-23T18:33:45.266Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B56 with round number 56 with QC 55 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:45.266Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B56 with round number 56 with QC 55 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:45.272Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B57 with round number 57 with QC 56 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:45.273Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B57 with round number 57 with QC 56 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:45.273Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B57 with round number 57 with QC 56 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:45.278Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B58 with round number 58 with QC 57 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:45.279Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B58 with round number 58 with QC 57 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:45.279Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B58 with round number 58 with QC 57 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:45.290Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B59 with round number 59 with QC 58 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:45.291Z INFO  consensus::core] Committed B57 with QC 56
+[2022-07-23T18:33:45.291Z INFO  consensus::core] Committed B57 -> jM3a5hyI5dPRGeeLDbWB9tDunTfJCokqZmh5hr1Xs84=
+[2022-07-23T18:33:45.291Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B59 with round number 59 with QC 58 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:45.291Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B59 with round number 59 with QC 58 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:45.292Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:46.303Z WARN  consensus::core] Timeout reached for round 59
+[2022-07-23T18:33:46.311Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:46.706Z WARN  network::reliable_sender] Failed to connect to 127.0.0.1:9009 (retry 6): Connection refused (os error 111)
+[2022-07-23T18:33:47.315Z WARN  consensus::core] Timeout reached for round 60
+[2022-07-23T18:33:47.331Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:47.336Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B61 with round number 61 with QC 58 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:47.339Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B61 with round number 61 with QC 58 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:47.339Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B61 with round number 61 with QC 58 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:47.345Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B61 with round number 61 with QC 58 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:47.347Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B61 with round number 61 with QC 58 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:47.347Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B61 with round number 61 with QC 58 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:47.355Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B61 with round number 61 with QC 58 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:47.358Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B61 with round number 61 with QC 58 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:47.358Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B61 with round number 61 with QC 58 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:47.359Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B62 with round number 62 with QC 61 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:47.360Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B62 with round number 62 with QC 61 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:47.360Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B62 with round number 62 with QC 61 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:47.366Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B61 with round number 61 with QC 58 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:47.368Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B61 with round number 61 with QC 58 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:47.368Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B61 with round number 61 with QC 58 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:47.382Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B61 with round number 61 with QC 58 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:47.385Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B61 with round number 61 with QC 58 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:47.385Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B61 with round number 61 with QC 58 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:47.390Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B63 with round number 63 with QC 62 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 with QC 58
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> CUtyIlRkDyMWKzuFesusvt/82TwVwBQr4sM1plIwvgU=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> u1SxubF1Nj4luDdTW6R/103BXlRgcvtVlz0VzheFfFM=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> mHNi4LvDbzCbhtrVzALLEp1x/sn1JiVAKRVtod+zwJ8=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> JaFnd1wXHsbxmPX/E0LZ+Op82wokHN6oFA9rKzfz3tk=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> F7mzw5zQV+IzXJXxNVTutO3NupVlC68x1sr1/ByWDl8=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> osVzKD06uS1s8sWPcF0zBcfgNlq7MzW4y6ciXMnVst0=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> GKh2MiDXyw5DIsaUhzTp9TnMsC2ug48EiYNcyfzS3pQ=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> t5eRGcVmyD3Qxqk9cpl+qBam+Mp/OMYFM1dbpD0dJF0=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> am2jJ5gjqsNSTHq+nL+zKUmQm/Nnpq+Fs27v4kJYOrI=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> rOfKtVIXLF49GdgRWmRUR2cS+UP7RKn16O62hfup/5Q=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> 0d8V6WPJNPsdfk1yxjZI6hxCIJRKIYBZabIc06Ynxps=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> O2AjYBg15foKdVv/QnKUZgmiBjT3LCdum48XMhEBUSo=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> 52qGWdJR2SdfAjmyJYQd5xrYVkd1MdtzKNt0XX8Wo8Y=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> EMsbAn80PYeusSzN5hPBK0Yl5LLeLQo1xBWss9KsmBM=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> j0gDC3dwRcJUDnnI1ECtybg4eMdjyokzphgecjwYPVU=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> sh9hCAOWn0pYIWn+Nb6z9371rpmASm6ZhPSDDHjYE1U=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> zkw9Ujb9qvOMEDiyhUMJsxFpdh52QTQsFNuKcabTwug=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> gbxphNP6FBqXZywCg4rFnLYGHWAFyNMG/wbR+7YqSdE=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> XfejcIFKrDd00QTEA3TYlTsHEc/Dh6PAn9fR663vPvo=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> Wn3OK2ucdWh5Xf0Zfw2p0ldHczRIXy9HwD75/6ZpEqI=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> gUVga+fJepaARQ1gNgEvsmVkQNjRkNZrPgdAPbSqZLA=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> RMlQNKBeod2hBuIR1zMklx7DQlwsk3U2bzHu3yAUDPU=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> p6RBecOp1P1tRDkhV+VE3Ga0qavgytno0BiXcSXjcGY=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> qkDMZPMi6FxOnjalrOwRLCHqMFKRb5QT2lt9YcQpsu0=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> ir3Yk76NVIG3Jfire8gzmDMqeW5piqXOO9lrOQOjWxc=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> pOzWgGGxUhsz4//s7JASq+qDcTi9yu4BVp4P4LxgOe4=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> vcgXvH4YZJmyuBQy7PQNGtgf/Zn1A8HZMX51doRot7w=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> 5KvcMIddLtN8CeXpcPhpxpSg+RK7B4xHckIXQZMyj58=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> gBuHzBWZVqxeNBXZ0bzBnqFkfxGiGW3R34WR4xTbepc=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> kncZRVVgcHhg+r0jsYsvwxvGCW+LM5ZCHx6/JO0sfDQ=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> sN9HsM3cCV1loOgwQMwNLMqUKZZRcEaE61j0065j9Oc=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> CCfEfhl16+3Ll1Be4ykd3KqbfqSily3pYPjo3cBiOHQ=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> hjpxopPEvji+7S3z5LDU/jWNZQQLihjn+9LJ6dvsAZI=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> qka1GEVNFGZ1bcce79Pq89Xr0jwJDSVkHKXZ7V/AWPA=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> z5/kramGgCyVoT5T3ENBJMJ1gW1pRxzsF6+jQTZdnhs=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> a/DiaCSo3W6v9Z2t1nXbrsIvWcK11EQXJvf4gCvwYD4=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> VG6x4VJvR/21klkCwe4laKmd+F3JgZrywTeZsJG7vS0=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> TQNYc48IQoS4uIzvrbjwIDNBUIDqwrspgZvPbgojkP4=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> +8sNhk97KXFFzBEHuJFR02iygV4XbGLPC5EF5M6SKG4=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> mw3wFebEGExf1djeihZyUR+s36UgRcQYLpf1SCGdRgU=
+[2022-07-23T18:33:47.391Z INFO  consensus::core] Committed B61 -> yZkiAn4GNwglptfTg+aVO7ePTqNimUeV9T2aNcrtkk4=
+[2022-07-23T18:33:47.392Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B63 with round number 63 with QC 62 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:47.392Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B63 with round number 63 with QC 62 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:47.392Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B61 with round number 61 with QC 58 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:47.394Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B61 with round number 61 with QC 58 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:47.394Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B61 with round number 61 with QC 58 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:47.394Z INFO  consensus::proposer] Created B64
+[2022-07-23T18:33:47.394Z INFO  consensus::proposer] Created with Round number 64 with QC 63 
+[2022-07-23T18:33:47.395Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B64 with round number 64 with QC 63 from leader rbc6NMLFt9/kjrbG
+[2022-07-23T18:33:47.395Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B64 with round number 64 with QC 63 from leader rbc6NMLFt9/kjrbG
+[2022-07-23T18:33:47.402Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B61 with round number 61 with QC 58 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:47.404Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B61 with round number 61 with QC 58 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:47.404Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B61 with round number 61 with QC 58 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:47.411Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B65 with round number 65 with QC 64 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:47.412Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B65 with round number 65 with QC 64 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:47.412Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B65 with round number 65 with QC 64 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:47.418Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B66 with round number 66 with QC 65 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:47.419Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B66 with round number 66 with QC 65 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:47.419Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B66 with round number 66 with QC 65 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:47.426Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B67 with round number 67 with QC 66 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:47.429Z INFO  consensus::core] Committed B65 with QC 64
+[2022-07-23T18:33:47.429Z INFO  consensus::core] Committed B65 -> wYolQm9XQeMIE0df080m/cTGgyOaqRpOQvv4v6Cdcp4=
+[2022-07-23T18:33:47.429Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B67 with round number 67 with QC 66 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:47.429Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B67 with round number 67 with QC 66 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:47.434Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B68 with round number 68 with QC 67 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:47.435Z INFO  consensus::core] Committed B66 with QC 65
+[2022-07-23T18:33:47.436Z INFO  consensus::core] Committed B66 -> qtqGn3kLllZQTG/XmRWEf6M6vLMVAyX9HM+ztEc6wps=
+[2022-07-23T18:33:47.436Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B68 with round number 68 with QC 67 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:47.436Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B68 with round number 68 with QC 67 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:47.440Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B69 with round number 69 with QC 68 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:47.442Z INFO  consensus::core] Committed B67 with QC 66
+[2022-07-23T18:33:47.442Z INFO  consensus::core] Committed B67 -> pa5NLNUTorLg9pbtSjsIdZQweZQh9SIT/wFIaWIcBaM=
+[2022-07-23T18:33:47.442Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B69 with round number 69 with QC 68 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:47.442Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B69 with round number 69 with QC 68 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:47.443Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:48.449Z WARN  consensus::core] Timeout reached for round 69
+[2022-07-23T18:33:48.454Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:48.461Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:49.460Z WARN  consensus::core] Timeout reached for round 70
+[2022-07-23T18:33:49.468Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:49.490Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B71 with round number 71 with QC 68 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:49.492Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B71 with round number 71 with QC 68 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:49.492Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B71 with round number 71 with QC 68 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:49.502Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B71 with round number 71 with QC 68 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:49.505Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B71 with round number 71 with QC 68 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:49.505Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B71 with round number 71 with QC 68 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:49.505Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B72 with round number 72 with QC 71 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:49.506Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B72 with round number 72 with QC 71 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:49.506Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B72 with round number 72 with QC 71 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:49.511Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B71 with round number 71 with QC 68 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:49.518Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B71 with round number 71 with QC 68 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:49.518Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B71 with round number 71 with QC 68 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:49.519Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B73 with round number 73 with QC 72 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:49.520Z INFO  consensus::core] Committed B71 with QC 68
+[2022-07-23T18:33:49.520Z INFO  consensus::core] Committed B71 -> xzrS/bPCy0hIjXJgL3MUGFLv+o+RzEiTK07R7q1oUXE=
+[2022-07-23T18:33:49.520Z INFO  consensus::core] Committed B71 -> zu973WF7J/28ZwAPgGXwDftTcv1ZMOEAfBGqwly3kTs=
+[2022-07-23T18:33:49.520Z INFO  consensus::core] Committed B71 -> /TK1B9fuLLp/Q2ieCG81GyHOGCW8zo5TnktvlQ6739I=
+[2022-07-23T18:33:49.520Z INFO  consensus::core] Committed B71 -> uKB01FK92Eg6/SHBVRuQx2TN0ihv1Na/VlXKvbVRqg0=
+[2022-07-23T18:33:49.520Z INFO  consensus::core] Committed B71 -> kqSnGDzVU7s6gmjMtI4WKQP8RdsKW1G251WMkxn66G4=
+[2022-07-23T18:33:49.520Z INFO  consensus::core] Committed B71 -> Ht3NS/eFPPYWHmfBGvE5kma4m/W0t5juiIllxsAHTSQ=
+[2022-07-23T18:33:49.520Z INFO  consensus::core] Committed B71 -> j5sl3Pn1S2Fp/+trlqg/SsBpE2hREA153k6R44jCq7w=
+[2022-07-23T18:33:49.520Z INFO  consensus::core] Committed B71 -> MKaRYrv4P+v49HBuxz7O8ZqtYo7OjmcvHtdRZGhuBbs=
+[2022-07-23T18:33:49.520Z INFO  consensus::core] Committed B71 -> K9GoWqezN0ICciXiid019Nef5+zkLEcvdeauAUxXjdA=
+[2022-07-23T18:33:49.520Z INFO  consensus::core] Committed B71 -> cHHs5c8AlfJOg1xFpH0G8ZXy1UFT4x+cfTzcytbf32M=
+[2022-07-23T18:33:49.520Z INFO  consensus::core] Committed B71 -> PiFdF+Vftw2yqwAWvssE24VvuLn3pR39+7lxYVeBkgk=
+[2022-07-23T18:33:49.520Z INFO  consensus::core] Committed B71 -> oOicNfwCx/oqIfxSANo7QZUiZkXwgeGIHGRThY6jnjY=
+[2022-07-23T18:33:49.520Z INFO  consensus::core] Committed B71 -> K5tJLAPSawEsgezJc3CNYuAAY+z+bAB2MbI3LC/7rHE=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> Owx0DazSCDRSY6gw50SVqXT5qQRTWiZ8OKWue2wwitY=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> lM/tXo12ynIqy/g+f298L017He2Nqd4QS+ZNkbHgN6g=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> BOfkqQlI/u1x3RFaTQs1OpQ/d16dq7UMAeKlrPdPi3w=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> IE6d35pZVHB6dzAlNwUflGN1mb847XJKkayxnx0ixQ8=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> id02ZnU3xrvZmCPdnql7DYXx/SEBm6EiokXTnhJ+T9c=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> Soic8630iZQDwQHfxoB/9xYMxPvEx7sVaD7dSZtD9EM=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> f9G6aLKhnO9vrIyTu4v3sfHbBLHnt15yesaLFbSfirg=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> LVa1RxYvR7qQJCJivnwW8hcCC1r/dq+ZH8SZcSl8ooM=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> VPSg31rJhV4lIhqwaZnUwIJcxrtr2jGpUtXYIdsOR38=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> 7owEOIPi3+iHb4eAu5yZYx6dvhHgJYAL79I4jAslXbI=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> cRL0PNfM3XI2lgolfiVGpayywKyWkK+cxYgCJSyQma0=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> RLyOewetMGDIJcMBu8tp0fQP4iug2vf8qo0j+VZ1mTA=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> g9Z7DeKl0L/gv1jhlM4rINUCEq8AToYQgUS0i40UH84=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> aGhLYQFIw1M84HE/f0yp4l7BTlTGXcJJjFHGfVRB8Fo=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> BOGb3iLSrKfRlpTEmFjUcNYTjZFCt9l3XEmaxmyx2jU=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> NNlG/xNfcMFB6+OXehhlx28dSQ4Y1rD4QeDDO1u8plM=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> fuolUqwCMa+3HAjTmzkvP9/gLyYQgKs5u4sGmn/Qtf0=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> uiDboljov0NEg0iCxsRKZrtih/Yiq7vmd2qAOAdhocg=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> zcXypAP7EKpjoaTggxsNMPqgFus06y+jeOLQg0PrI+U=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> EBsnQ5j45QlyspezeAi84r86Sk1vJwp8L4eCdlob8uc=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> cG/WAnAQpiiNNMgF7uGyWqd7+AFm2rZ8zqGOTWd5fBA=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> 7FrvFUZPsXbj3dpTW4rGb66NBwFql1xw0aPiAP5C1fs=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> toD/yVJ6YAJeITIyG9Btubeo4h65tLeYoUnrGcOaVOc=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> c3EzTSq6rxbeWP6AboCuDejrPGX6D/Oa/n0eQX9EZTQ=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> 4iGyYm2xJnshL+RA/eWuDHbCJ68W8BjW7hd8m8f5CKQ=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> TCreBrUnRr0X1392kNeGXkLFGD19YLgjQ5J3Y93QhpA=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> +mfIdcDMCoBYPoXyCwb0ukUD+xFyU7bjwno2033FgoA=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> 6tngWZ/aGXPg+O0b7iJrKsCs3c9IXSLvUl4rHbJeIjI=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> HCna+AHLZWlrrPqc6hyAFGk7R5XzkHUz0GVk3wo1MAE=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] Committed B71 -> OyD3s3Q61Dco2gDqEJIkv1G3LsZn5BO9bwzbUB+IinY=
+[2022-07-23T18:33:49.521Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B73 with round number 73 with QC 72 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:49.521Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B73 with round number 73 with QC 72 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:49.525Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B71 with round number 71 with QC 68 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:49.528Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B71 with round number 71 with QC 68 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:49.528Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B71 with round number 71 with QC 68 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:49.532Z INFO  consensus::proposer] Created B74
+[2022-07-23T18:33:49.532Z INFO  consensus::proposer] Created with Round number 74 with QC 73 
+[2022-07-23T18:33:49.532Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B74 with round number 74 with QC 73 from leader rbc6NMLFt9/kjrbG
+[2022-07-23T18:33:49.532Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B74 with round number 74 with QC 73 from leader rbc6NMLFt9/kjrbG
+[2022-07-23T18:33:49.546Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B75 with round number 75 with QC 74 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:49.547Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B75 with round number 75 with QC 74 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:49.547Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B75 with round number 75 with QC 74 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:49.560Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B76 with round number 76 with QC 75 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:49.561Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B76 with round number 76 with QC 75 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:49.561Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B76 with round number 76 with QC 75 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:49.561Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B77 with round number 77 with QC 76 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:49.562Z INFO  consensus::core] Committed B75 with QC 74
+[2022-07-23T18:33:49.562Z INFO  consensus::core] Committed B75 -> VPeMVwHsZaT1MNmvuVaGQY68NzfiXE0BO/9VlpEPJU4=
+[2022-07-23T18:33:49.562Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B77 with round number 77 with QC 76 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:49.562Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B77 with round number 77 with QC 76 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:49.566Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B78 with round number 78 with QC 77 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:49.567Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B78 with round number 78 with QC 77 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:49.568Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B78 with round number 78 with QC 77 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:49.576Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B79 with round number 79 with QC 78 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:49.577Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B79 with round number 79 with QC 78 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:49.577Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B79 with round number 79 with QC 78 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:49.577Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:50.590Z WARN  consensus::core] Timeout reached for round 79
+[2022-07-23T18:33:50.598Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:51.599Z WARN  consensus::core] Timeout reached for round 80
+[2022-07-23T18:33:51.602Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:51.633Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B81 with round number 81 with QC 78 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:51.641Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B81 with round number 81 with QC 78 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:51.642Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B81 with round number 81 with QC 78 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:51.644Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:51.671Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B82 with round number 82 with QC 81 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:51.672Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B82 with round number 82 with QC 81 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:51.672Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B82 with round number 82 with QC 81 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:51.681Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B81 with round number 81 with QC 78 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:51.684Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B81 with round number 81 with QC 78 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:51.684Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B81 with round number 81 with QC 78 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:51.684Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B81 with round number 81 with QC 78 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:51.686Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B81 with round number 81 with QC 78 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:51.686Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B81 with round number 81 with QC 78 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:51.694Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B83 with round number 83 with QC 82 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:51.695Z INFO  consensus::core] Committed B78 with QC 77
+[2022-07-23T18:33:51.695Z INFO  consensus::core] Committed B78 -> 8xtEpJ2q08jsgrV2yiyeguRNIfm5co9ebdIh5870zDE=
+[2022-07-23T18:33:51.695Z INFO  consensus::core] Committed B81 with QC 78
+[2022-07-23T18:33:51.696Z INFO  consensus::core] Committed B81 -> A1tbcegAnUTpKxZvCltii3PhRCWl98nM7fMOlpnfYes=
+[2022-07-23T18:33:51.696Z INFO  consensus::core] Committed B81 -> C3GNL+hChmmkrr9biJ+OOPRx/Wwjen62rvWkVBoKg9c=
+[2022-07-23T18:33:51.696Z INFO  consensus::core] Committed B81 -> 75UOUkAi5uG/URxRfrKv52DOKyfWWi0teYKziXn6Mtg=
+[2022-07-23T18:33:51.697Z INFO  consensus::core] Committed B81 -> UzLxsss4icQYHnLg+4VMaLf7BR9O2YQr61WQ4MA8dmc=
+[2022-07-23T18:33:51.697Z INFO  consensus::core] Committed B81 -> ZVTfG+2fmnzFKNRVMMtl9YlkAORL8F/uYzAoEaESIdU=
+[2022-07-23T18:33:51.697Z INFO  consensus::core] Committed B81 -> N52wOhfSBRaVoKJNjGAR6xLf3dG5CGi3Yo3KRoktNI0=
+[2022-07-23T18:33:51.697Z INFO  consensus::core] Committed B81 -> pQqvRVkB78OhWdJ+OMtkHIgUvc1qhsxTatq2NxGKFno=
+[2022-07-23T18:33:51.697Z INFO  consensus::core] Committed B81 -> zQVr7C6r0M2iDvOWA2YeMalJ8sv3PyStAlfg/if3Ofo=
+[2022-07-23T18:33:51.697Z INFO  consensus::core] Committed B81 -> fRBXSk2E+NyZ0BIRm7H15FcY35ZwBK8k/Br/MwjOzHc=
+[2022-07-23T18:33:51.697Z INFO  consensus::core] Committed B81 -> 62ERA2TshKSaiSAi9JsIWsNOXsJnpna2H7eoU08+JU8=
+[2022-07-23T18:33:51.697Z INFO  consensus::core] Committed B81 -> /Tks4Ue72IllTqnKnpHT4vvBAK2lT5Z7hCAVUHkvTbI=
+[2022-07-23T18:33:51.697Z INFO  consensus::core] Committed B81 -> Itv1oE7kaAsT4xOgQb8d4tXlxfATMw38PtZRZMUjhOM=
+[2022-07-23T18:33:51.697Z INFO  consensus::core] Committed B81 -> mPAPX3fKoMMeJpjQTRSW94uyzRgHV+3GyeMSDo93qPA=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> AZ9nhLnosnrYvLCk0gYQetwFcCYWGQa9hyxsNbvYwBI=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> cTTZkcLcWb/OBgZk94dkHPMQGE3pCIKZSt82GjkD2eo=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> NbjU84QxeTfksqLj/ySf1+83nsZwCCF2K+bDdmGcBtQ=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> uysZVjIeB/FrUXn9IGY+WWVmNbPAymbt7zQDywxu+P4=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> RRk5Fx/EMZDH6vqfiwMUz44ypzmWZ+sm3AyX6k3pM00=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> rQVZLdKmnwZ+1rxPnQYylWEfR7ekn3fFwcZfL+97AUI=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> gO4vI/XFBlXlJure0LhPeibon/wUUwEwpAZzvy6owKY=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> NZ62pf/CuWNT5RaKJh2mLWbltq2Bgu+l+C2rNmTLPdM=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> g4c1Nrd+t5X5xz+p3mBt7sM9NbtkNUuuRzwzzGgrEaY=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> aNNXQrIfrNlioPYJ0Ny7gjVDwJIIFiPdd9xj9luKElk=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> /YVNgX67KMWR2wQbNHTWICa8dyPjGFOzr7L3flhrAyU=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> Rz9+kZIUOM5I1sSibi520b55JLVrY9PYNKiILBWT9VI=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> N28SiFQHm+nlJNo4U6K7S9GSODfwAvbNqVqRKtCktFI=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> 1P8mqistHrk16+aPrUCBQZIuhzaN2t0D4fE9tJ1huE0=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> mAgdAGxuN6nmonDj7HjvvKiWNDgzLCDOnRkPdl1rAXs=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> BPeY7FErGxzp8LU/COtGMRMmgGab1jE9yVRa3+yAt8k=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> 4MSY9SKH0rREUM2sUkGuVLoZ/3yXEEi7w/8g69FcwCc=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> Ed67RCl6z6MVZjdazLcPL+1jCHKykq3T8E9IUarWHpQ=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> HVNptkms+f+4JFX2B89vaPfMY++OFLHC5B/qTnOTksQ=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> o+aFLQ4zydDHGYBQAva5ZRaxsdgpbKBKobyNO3g2L+4=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> 52Eq/3QVRH5bMysRCWMs7R0M97TTOKme4+N7fQyfMrk=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> 1qOYRPM2b9/QBRJKyE25k/admXZwR6VTaw7f5f/eC24=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> a4mxtAi1G/Q2jTYfy5UEBxVSMqVfE0Up2qe6BcuR4zw=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> /sWcXcWNG4mn8/n3r0lZQ+5eUhLjtoPVP1RdbeXq/qY=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> dTt3Nb7rj5PptCcRmv/5iWKeI8lvrcvwD+W5BjYwJPM=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> 0bypUwhM0ytSrbfpvCCu+gIIAq88cOz81/Ahfe1oIg0=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> pPd/WN6Qepdu0wWel6ZPasXH7gCEb2gHNucQy2I59Ys=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> BodArLTIQmQlqp2AzC0G7I+ZaND/+7EnCl6Ow1iJc+4=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> 51wSSWtPWLZ1fWIEgvbN5L5XSqIkHQf2PPPgvumuXFA=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] Committed B81 -> hdJRf+OwmEZ7TtBogg8v2G/CqY5epFNJpME+ZzG9BX0=
+[2022-07-23T18:33:51.698Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B83 with round number 83 with QC 82 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:51.698Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B83 with round number 83 with QC 82 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:51.712Z INFO  consensus::proposer] Created B84
+[2022-07-23T18:33:51.712Z INFO  consensus::proposer] Created with Round number 84 with QC 83 
+[2022-07-23T18:33:51.712Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B84 with round number 84 with QC 83 from leader rbc6NMLFt9/kjrbG
+[2022-07-23T18:33:51.712Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B84 with round number 84 with QC 83 from leader rbc6NMLFt9/kjrbG
+[2022-07-23T18:33:51.733Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B81 with round number 81 with QC 78 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:51.736Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B81 with round number 81 with QC 78 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:51.736Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B81 with round number 81 with QC 78 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:51.736Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B81 with round number 81 with QC 78 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:51.739Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B81 with round number 81 with QC 78 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:51.739Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B81 with round number 81 with QC 78 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:51.739Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B81 with round number 81 with QC 78 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:51.742Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B81 with round number 81 with QC 78 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:51.742Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B81 with round number 81 with QC 78 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:51.742Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B85 with round number 85 with QC 84 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:51.744Z INFO  consensus::core] Committed B83 with QC 82
+[2022-07-23T18:33:51.744Z INFO  consensus::core] Committed B83 -> RRGKHObK2atFLH0hezcsRMPbn3fMdh3mKMUHA+cQ8X4=
+[2022-07-23T18:33:51.744Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B85 with round number 85 with QC 84 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:51.744Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B85 with round number 85 with QC 84 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:51.755Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B86 with round number 86 with QC 85 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:51.756Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B86 with round number 86 with QC 85 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:51.756Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B86 with round number 86 with QC 85 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:51.759Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B87 with round number 87 with QC 86 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:51.760Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B87 with round number 87 with QC 86 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:51.760Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B87 with round number 87 with QC 86 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:51.773Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B88 with round number 88 with QC 87 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:51.774Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B88 with round number 88 with QC 87 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:51.774Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B88 with round number 88 with QC 87 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:51.787Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B89 with round number 89 with QC 88 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:51.787Z INFO  consensus::core] Committed B87 with QC 86
+[2022-07-23T18:33:51.787Z INFO  consensus::core] Committed B87 -> qyp1snz5KU+tM6EMit4rErucUJM8pYJ66Ody+KLNyB0=
+[2022-07-23T18:33:51.787Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B89 with round number 89 with QC 88 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:51.787Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B89 with round number 89 with QC 88 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:51.788Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:52.790Z WARN  consensus::core] Timeout reached for round 89
+[2022-07-23T18:33:52.804Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:53.805Z WARN  consensus::core] Timeout reached for round 90
+[2022-07-23T18:33:53.809Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:53.833Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B91 with round number 91 with QC 88 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:53.836Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B91 with round number 91 with QC 88 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:53.836Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B91 with round number 91 with QC 88 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:53.850Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B91 with round number 91 with QC 88 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:53.852Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B91 with round number 91 with QC 88 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:53.852Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B91 with round number 91 with QC 88 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:53.853Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B92 with round number 92 with QC 91 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:53.854Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B92 with round number 92 with QC 91 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:53.854Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B92 with round number 92 with QC 91 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:53.863Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B91 with round number 91 with QC 88 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:53.865Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B91 with round number 91 with QC 88 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:53.865Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B91 with round number 91 with QC 88 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:53.866Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B93 with round number 93 with QC 92 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:53.867Z INFO  consensus::core] Committed B91 with QC 88
+[2022-07-23T18:33:53.867Z INFO  consensus::core] Committed B91 -> E5aKhiXRL1gmAt3IIdks+mNGxUKhZ8fIjQQwxSnNP4k=
+[2022-07-23T18:33:53.867Z INFO  consensus::core] Committed B91 -> lTICOdULrlsmt+GhPV2W2U5pHxXh2I+Zeq8CDEIGBRo=
+[2022-07-23T18:33:53.867Z INFO  consensus::core] Committed B91 -> YCB1ImmX56M9SllkeB9Yv836e9BlRWmN4NNf/r/ixUo=
+[2022-07-23T18:33:53.867Z INFO  consensus::core] Committed B91 -> wxoEsOFxguld4Fgl/kjIXbZHFKxb0zOZUmfRu1R2lAs=
+[2022-07-23T18:33:53.867Z INFO  consensus::core] Committed B91 -> 4vXFcuJKlev2CSZYNos3zKYl1mCtkaH0LsbU7YG+uk4=
+[2022-07-23T18:33:53.867Z INFO  consensus::core] Committed B91 -> OLEixaGnUhv2OBa3VhKt9FFJ9GaeE9VnG5x5QAdtt+Y=
+[2022-07-23T18:33:53.867Z INFO  consensus::core] Committed B91 -> 2XzymCTqzwgsjqoCi4+AE6l6+BMWesrPZNGPLPsW8O0=
+[2022-07-23T18:33:53.867Z INFO  consensus::core] Committed B91 -> k0VBJw5RrDuOx7JFaUtVZyJWMU9xufLTZY/WDDwAnVg=
+[2022-07-23T18:33:53.867Z INFO  consensus::core] Committed B91 -> jTq2uiSh+Apb02kSpjYUyHPe1Bd1tUMwJSBZHzfOklM=
+[2022-07-23T18:33:53.867Z INFO  consensus::core] Committed B91 -> whWqehn2wJnQIswuvQAchaHMdGJpUlOzGWUZs8OEC6U=
+[2022-07-23T18:33:53.867Z INFO  consensus::core] Committed B91 -> S/4hIRBBHE8myR3R1V/alxpaIzdA3h3SuUjsY/EWGHU=
+[2022-07-23T18:33:53.867Z INFO  consensus::core] Committed B91 -> U/wKvlxhJs0Sb/aa7JoBcrnklduq3ANJJVYX82B4QrU=
+[2022-07-23T18:33:53.867Z INFO  consensus::core] Committed B91 -> +zJ/iTkRdBaf7AYcVm0Mv+jZ/fN1q1rXmdUr68vCZno=
+[2022-07-23T18:33:53.867Z INFO  consensus::core] Committed B91 -> niBBKJDDkB5fP213MMWLWV74Q8oBHQqC/5TfuGSO7H8=
+[2022-07-23T18:33:53.867Z INFO  consensus::core] Committed B91 -> sWCFCV1nDXgjFcT+r507bAb2AwZRnmprtFUIH7w2JBg=
+[2022-07-23T18:33:53.867Z INFO  consensus::core] Committed B91 -> fUIdWVr8i+jAhawut34f5k3OVoIcZAYJdE4e0/lc0CE=
+[2022-07-23T18:33:53.867Z INFO  consensus::core] Committed B91 -> FsS4RAZakQoL8H9vHY6DdKxzqFv8B7gbTYbSpBPGCis=
+[2022-07-23T18:33:53.867Z INFO  consensus::core] Committed B91 -> fnnxg7DP30RkH/+bZMu3Pu0ezx6prt+SpeBpnDonXsk=
+[2022-07-23T18:33:53.867Z INFO  consensus::core] Committed B91 -> Ko/c4nse05gFvREZZqQdp5PkvSKdeq1OB1dZIF3mkD8=
+[2022-07-23T18:33:53.867Z INFO  consensus::core] Committed B91 -> b4OQhyDCfVMSVxwv4G3n9cB498jpDmdXU1VmEDkYKPQ=
+[2022-07-23T18:33:53.867Z INFO  consensus::core] Committed B91 -> 0R4DmZhnwCt0XQjgNzQ16lc+iTiScyMfPm4QBN0R2EI=
+[2022-07-23T18:33:53.867Z INFO  consensus::core] Committed B91 -> AW6BhllVMSCm6zPgPwioal/QKawq2PMlwxjDtcUQD3Q=
+[2022-07-23T18:33:53.867Z INFO  consensus::core] Committed B91 -> A9zQuaIXnM3bLAuqR15AjBq9mXfOVDxibocZfb3/opY=
+[2022-07-23T18:33:53.867Z INFO  consensus::core] Committed B91 -> filslJHh41/E6C1YoIZELcRCmgS6kUOeyO5YD344JVA=
+[2022-07-23T18:33:53.868Z INFO  consensus::core] Committed B91 -> xWqSZ1BXxXwNyOnl40J1uHeS4EAEc7rSLuk8lvAYAfg=
+[2022-07-23T18:33:53.868Z INFO  consensus::core] Committed B91 -> NqN78rzGxjjMnJ672koFOERmJVL5VD4dxJxpXSao3FE=
+[2022-07-23T18:33:53.868Z INFO  consensus::core] Committed B91 -> 1fNqJQ7m2OeeE0HHw9dDwgEFi/9YcKTHstk7VEpagms=
+[2022-07-23T18:33:53.868Z INFO  consensus::core] Committed B91 -> iX9sjFx33jhmVeLiFz+NdFDi9S9bZIW3ILODnS8jN9g=
+[2022-07-23T18:33:53.868Z INFO  consensus::core] Committed B91 -> nVZ1lCGBV+pQjKq5GZpGhTzTm+CD5Nfq5dUue/BwBac=
+[2022-07-23T18:33:53.868Z INFO  consensus::core] Committed B91 -> 8eZKwx8aAWxYKZ2dfNzYeEMRe4U22KPjmApxGggelrM=
+[2022-07-23T18:33:53.868Z INFO  consensus::core] Committed B91 -> L0ySzm8KDpnF1MfrZEP1VH/qrO5pgh6TgedA5BIg6kg=
+[2022-07-23T18:33:53.868Z INFO  consensus::core] Committed B91 -> xtDihkm2HqrEpuq15+hK4cGkKOIgqK9kpYQIfGFlV3o=
+[2022-07-23T18:33:53.868Z INFO  consensus::core] Committed B91 -> GeFBPlXOkKdKzly13wmHvN+c8kpC+fTL/ehH22cgIz8=
+[2022-07-23T18:33:53.868Z INFO  consensus::core] Committed B91 -> RV1n+6j5MrV0yTrSmgE69SqjaaQcXIImGLjLy75DzAI=
+[2022-07-23T18:33:53.868Z INFO  consensus::core] Committed B91 -> dzTH5q8+1ij03WGu/PbUhvdym1rRX/Ag7XTZMSr/+mI=
+[2022-07-23T18:33:53.868Z INFO  consensus::core] Committed B91 -> BS0zTtAtxCHJutT0F/LRbp3CyE7xwbjbpqZ5ayuY9S0=
+[2022-07-23T18:33:53.868Z INFO  consensus::core] Committed B91 -> RRGKHObK2atFLH0hezcsRMPbn3fMdh3mKMUHA+cQ8X4=
+[2022-07-23T18:33:53.868Z INFO  consensus::core] Committed B91 -> INzopnJ7bs7+OZaysUd/dBkOGUbM4mOnLcmtirFfF6g=
+[2022-07-23T18:33:53.868Z INFO  consensus::core] Committed B91 -> hcG7z+vMXoEhKrBd7+2KHqVxaG+kXYHqVq84i/TNaKc=
+[2022-07-23T18:33:53.868Z INFO  consensus::core] Committed B91 -> M9SROcb0/xcAByN0r1z/VgOJtbUoZRp2319DPkpYjmg=
+[2022-07-23T18:33:53.868Z INFO  consensus::core] Committed B91 -> 4OLIHGdo8Ghu43HSGcSZm2UiSafdBbEER9nNCzSdGZM=
+[2022-07-23T18:33:53.868Z INFO  consensus::core] Committed B91 -> CSAgkZahLG6y3MgzdejvlHQUvG94gE8MHm5j0x/QA6s=
+[2022-07-23T18:33:53.868Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B93 with round number 93 with QC 92 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:53.868Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B93 with round number 93 with QC 92 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:53.878Z INFO  consensus::proposer] Created B94
+[2022-07-23T18:33:53.878Z INFO  consensus::proposer] Created with Round number 94 with QC 93 
+[2022-07-23T18:33:53.879Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B94 with round number 94 with QC 93 from leader rbc6NMLFt9/kjrbG
+[2022-07-23T18:33:53.879Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B94 with round number 94 with QC 93 from leader rbc6NMLFt9/kjrbG
+[2022-07-23T18:33:53.879Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B91 with round number 91 with QC 88 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:53.884Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B91 with round number 91 with QC 88 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:53.884Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B91 with round number 91 with QC 88 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:53.899Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B91 with round number 91 with QC 88 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:53.902Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B91 with round number 91 with QC 88 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:53.902Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B91 with round number 91 with QC 88 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:53.903Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B95 with round number 95 with QC 94 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:53.904Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B95 with round number 95 with QC 94 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:53.904Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B95 with round number 95 with QC 94 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:53.912Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B96 with round number 96 with QC 95 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:53.913Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B96 with round number 96 with QC 95 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:53.913Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B96 with round number 96 with QC 95 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:53.919Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B97 with round number 97 with QC 96 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:53.921Z INFO  consensus::core] Committed B95 with QC 94
+[2022-07-23T18:33:53.921Z INFO  consensus::core] Committed B95 -> f4nNIwqy4qwx/FwjlBconSfcwnjdzE9n8JCi9/Mo+mQ=
+[2022-07-23T18:33:53.921Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B97 with round number 97 with QC 96 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:53.921Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B97 with round number 97 with QC 96 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:53.929Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B98 with round number 98 with QC 97 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:53.930Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B98 with round number 98 with QC 97 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:53.930Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B98 with round number 98 with QC 97 from leader 8IZ0AUmE4ZDWkeSw
+[2022-07-23T18:33:53.938Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B99 with round number 99 with QC 98 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:53.939Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B99 with round number 99 with QC 98 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:53.939Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B99 with round number 99 with QC 98 from leader 8bKFtZrXZ1Sa2dzR
+[2022-07-23T18:33:53.939Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:54.943Z WARN  consensus::core] Timeout reached for round 99
+[2022-07-23T18:33:54.950Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:54.963Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:55.956Z WARN  consensus::core] Timeout reached for round 100
+[2022-07-23T18:33:55.972Z WARN  network::simple_sender] Failed to connect to 127.0.0.1:9009 (retry 0): Connection refused (os error 111)
+[2022-07-23T18:33:56.018Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B101 with round number 101 with QC 98 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:56.021Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B101 with round number 101 with QC 98 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:56.021Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B101 with round number 101 with QC 98 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:56.034Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B101 with round number 101 with QC 98 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:56.037Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B101 with round number 101 with QC 98 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:56.037Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B101 with round number 101 with QC 98 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:56.038Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B102 with round number 102 with QC 101 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:56.039Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B102 with round number 102 with QC 101 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:56.039Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B102 with round number 102 with QC 101 from leader QC1u6OCn+huHVVf5
+[2022-07-23T18:33:56.103Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B101 with round number 101 with QC 98 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:56.105Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B101 with round number 101 with QC 98 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:56.105Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B101 with round number 101 with QC 98 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:56.105Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B101 with round number 101 with QC 98 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:56.108Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B101 with round number 101 with QC 98 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:56.108Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B101 with round number 101 with QC 98 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:56.110Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B101 with round number 101 with QC 98 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:56.117Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B101 with round number 101 with QC 98 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:56.117Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B101 with round number 101 with QC 98 from leader JDwouDUmRfnTI8Go
+[2022-07-23T18:33:56.118Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B103 with round number 103 with QC 102 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B98 with QC 97
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B98 -> 3dyyBk3wo7PT33wdxjB3EMtuee8AvctkhoJ1OuWbJlg=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 with QC 98
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> yUKaz1BZ+ZODRlW4kb8bg80r5smCZP145mbFGz3DBBY=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> dZVSKrtHLXikMXjLji71e2sGl5rlewxJ0CEjsoIpICE=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> 0EUuxqLP/aY3x2QrriNY1IoPqM48seAaP/nXnsAR7+A=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> ipmszZvDP69f/AuFR30WEZT2dXwrD0dmceopLJ0/VLU=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> C7b0Zcdq+RCJFgGqHVOxB2oQDAthM3/dmeloaJnH3L8=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> InOg5xe2BkDEKfuCT9HRlC59OMUJQ6Qk4nr6mE0vZ1c=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> 39QNv1uZwXJlwJDQ3S5o3WX4UeR/sYTUhgHYvSlxAEo=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> zYDrUAgXebpvBQqLw9DVl4Yt15b/JG9uMhF2VCKdHqc=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> KoMktpz2RJ+ZwoempPhJYgK10AgoPEQ9ySjCY9Q7hO4=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> XTmoRn+dL+xWoTt06VWDocZBTKLvpyBojccFTZoNKK0=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> 8v8g07joYAil5v66KtsB1ybY0QKKdglMxg95KmSy9i4=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> HJghCqu86jYCabuisT14AcInMGnEhvvPU9QicNk+NhY=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> KItqJPNAj6C4WJSzKpBixADfAGwggdHEZLXo06+TNaU=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> GyxqBSuFyWHnvenwIBPfaXFgesvb5HHZGbLaqvlBH20=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> kVG2NylNHkpdXSoqCSIcSuKAGyX6I8yYWA18VFXj+pE=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> 2BXQaLH05yPy2nm19riPNRh7h1qrOgjctarWjBAokZ0=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> ggjAc/KiHjDaGoK6N7TMmPhU2ZY4f0l8IRS2AzMhBek=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> 13QGEgqBvv9tvUw3msI6kGGl/kZ/A7dWdtMO6ZF5IWE=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> CwgHn7xWfcGurqYBDX5JRBUEw5ZzSNCJrXP0IDIivSg=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> sGqwWLbQTvT8Vivyu+e4M+dNOfVqyxTrxsiFyMVdeD4=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> +VcYEdT+/MmcOWXnRjb+Lc10o29VEjof/42lKcCowZw=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> F8VyWvvcLLOMuneVJPkak1nFgo1k8C5I7dH1patw9Dw=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> LG4r/r7P+T+0B+EPcNpP2+BW5BVRiyZjyD6HHm7MNVU=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> vk2lzI8WMvSo6OqICwAX+SXstkDqZm47sJflDPoeN78=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> YJTT89ZvTY1r2PyQ+NCHtEuQoZsAkQpr9m8qq1wMAO0=
+[2022-07-23T18:33:56.120Z INFO  consensus::core] Committed B101 -> UgzxScVNfTL+21YxCOmHfHAxyHs1dE+LwBG/+8U5h5U=
+[2022-07-23T18:33:56.121Z INFO  consensus::core] Committed B101 -> bR0Swfg8WWSf1xtytE2FUG9Z+UXveWcgpdJdnVL9+qk=
+[2022-07-23T18:33:56.121Z INFO  consensus::core] Committed B101 -> JdiCwY9utHct/pX5UmtBp8b73s+Z7VsWtaJtJ37NQzc=
+[2022-07-23T18:33:56.121Z INFO  consensus::core] Committed B101 -> OlUuo7NMF8JsnrPkqn2Pjzv1PPwdr3dXfFdkn078NHM=
+[2022-07-23T18:33:56.121Z INFO  consensus::core] Committed B101 -> yTqbBvMOlM9TVGd4BCJWx86Q8GkTALdN7Q7KJToLWt4=
+[2022-07-23T18:33:56.121Z INFO  consensus::core] Committed B101 -> 1UfgV19ng5Hf94tUdm6xzLs/rooS1x559nRLsJY2jxo=
+[2022-07-23T18:33:56.121Z INFO  consensus::core] Committed B101 -> /DEraM7m19+ggFZbCTsunTaaZOrY3BuFflAPs3oTiaU=
+[2022-07-23T18:33:56.121Z INFO  consensus::core] Committed B101 -> IUkQaizYUkJavkq4nyL8obSQcG3c95IWL3eoqWaD4LA=
+[2022-07-23T18:33:56.121Z INFO  consensus::core] Committed B101 -> 1n3LEZ2w2q3E6mvbL8snJT2SD7XSbMh46JZQIpGwd0w=
+[2022-07-23T18:33:56.121Z INFO  consensus::core] Committed B101 -> 2tR1lkBX395XWuWNPqdKIpQZZSRYIGSB9Or5VKS3SgI=
+[2022-07-23T18:33:56.121Z INFO  consensus::core] Committed B101 -> Fz8lVdoNkCqK5XJFUu+xymY3/8gv78BH4n5o+WOiaRo=
+[2022-07-23T18:33:56.121Z INFO  consensus::core] Committed B101 -> L/qL9Ck39pPPYBRSA+FhzzrUq6K04Wn2Bl1gFGSfbxw=
+[2022-07-23T18:33:56.121Z INFO  consensus::core] Committed B101 -> Nt4/0AMUNomA3M7JegIk1FHLAm85skFAaDBWAuWwGJI=
+[2022-07-23T18:33:56.121Z INFO  consensus::core] Committed B101 -> 9SeURNlvxxvrtYZh98o0HQ7xjtho+mQo6iEHbTrmWHo=
+[2022-07-23T18:33:56.121Z INFO  consensus::core] Committed B101 -> gFi/cMMw5TDJIKHiuba1BF/oF+/fwznury42swzTHeE=
+[2022-07-23T18:33:56.121Z INFO  consensus::core] Committed B101 -> 4EDPH3Gzdc4wWpt+TV2dE/R6qukYyf9xPYvVt5pMthk=
+[2022-07-23T18:33:56.121Z INFO  consensus::core] Committed B101 -> /Jl+BT8xd6H07CVVgbEraYbfbLtpM+wcgC/VzN3Bk+s=
+[2022-07-23T18:33:56.121Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B103 with round number 103 with QC 102 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:56.121Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B103 with round number 103 with QC 102 from leader aVA2VuzblO01v1A1
+[2022-07-23T18:33:56.121Z INFO  consensus::proposer] Created B104
+[2022-07-23T18:33:56.121Z INFO  consensus::proposer] Created with Round number 104 with QC 103 
+[2022-07-23T18:33:56.121Z INFO  consensus::proposer] Created B104 -> 9QpSK93a34zFir4zaY82oMPeWUg4dqn0+LeTvlCN8d8=
+[2022-07-23T18:33:56.121Z INFO  consensus::proposer] Created B104 -> FCE9x07mZQrYWprTJRSmLqGZkOK9cObhHtRH65mVjQo=
+[2022-07-23T18:33:56.122Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B104 with round number 104 with QC 103 from leader rbc6NMLFt9/kjrbG
+[2022-07-23T18:33:56.122Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B104 with round number 104 with QC 103 from leader rbc6NMLFt9/kjrbG
+[2022-07-23T18:33:56.178Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B106 with round number 106 with QC 105 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:56.180Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B107 with round number 107 with QC 106 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:56.182Z INFO  network::simple_sender] Outgoing connection established with 127.0.0.1:9001
+[2022-07-23T18:33:56.197Z INFO  consensus::core] I'm handler rbc6NMLFt9/kjrbG handling for block B105 with round number 105 with QC 104 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:56.205Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B105 with round number 105 with QC 104 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:56.206Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B105 with round number 105 with QC 104 from leader tf3P3xkg1geJDzaX
+[2022-07-23T18:33:56.215Z INFO  consensus::core] Committed B104 with QC 103
+[2022-07-23T18:33:56.215Z INFO  consensus::core] Committed B104 -> 9QpSK93a34zFir4zaY82oMPeWUg4dqn0+LeTvlCN8d8=
+[2022-07-23T18:33:56.215Z INFO  consensus::core] Committed B104 -> FCE9x07mZQrYWprTJRSmLqGZkOK9cObhHtRH65mVjQo=
+[2022-07-23T18:33:56.215Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B106 with round number 106 with QC 105 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:56.215Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B106 with round number 106 with QC 105 from leader 5K2VY0Ft8vlcdSAv
+[2022-07-23T18:33:56.215Z INFO  consensus::core] Committed B105 with QC 104
+[2022-07-23T18:33:56.215Z INFO  consensus::core] Committed B105 -> Cv+yMrzxr7dcS3sVti0DJ70+qG+EaeIzqOhCYNLHKUI=
+[2022-07-23T18:33:56.215Z INFO  consensus::core] Committed B105 -> OkTdlBUS2d5qcWoDqcfR0ifPgmX/AZodXPbtX7g9BrI=
+[2022-07-23T18:33:56.215Z INFO  consensus::core] I'm processor rbc6NMLFt9/kjrbG processing for block B107 with round number 107 with QC 106 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:56.215Z INFO  consensus::core] I'm voter rbc6NMLFt9/kjrbG voting for block B107 with round number 107 with QC 106 from leader 6g+ErTVyYFGLJXb5
+[2022-07-23T18:33:56.219Z INFO  network::receiver] Incoming connection established with 127.0.0.1:56917
