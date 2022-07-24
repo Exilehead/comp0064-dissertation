@@ -3,7 +3,7 @@ import sys
 from pickletools import int4
 import time
 
-FILE_PATH = './logs/1_10_1ML/15/'
+FILE_PATH = '../hotstuff/benchmark/logs/'
 
 proposer_list = []
 proof_of_attempt_of_safety_attack = []
@@ -34,6 +34,7 @@ safetyattackRound = set()
 
 attack_1_reporter_to_roundqc = {}
 attack_2_reporter_to_roundqc = {}
+attack_liveness_reporter_to_roundqc = {}
 
 class Node():
     def __init__(self, name:str, round_number:int, qc_round_number:int):
@@ -175,7 +176,7 @@ def parseLog():
                     if checkSafetyRuleOne == "true" and checkSafetyRuleTwo == "false":
                         detectLivenessOrAccident(line_attack_info[6].strip(), round_number=int(line_attack_info[9].strip()), \
                                 qc_round_number=int(line_attack_info[17].strip()), description=LIVENESS_ATTACK_TWO_PT_FOUR)
-
+                        attackReporter(-1, lines[i+locationReporter].split(' ')[7].strip(), int(line_attack_info[9].strip()), int(line_attack_info[17].strip()))
                     # Optimizing for improving false positive: sometimes honest nodes report but curr round - 1 = block round due to 
                     # concurrency issue that global round is updated but block is sent slower, thus consider this scenario as honest behavior 
                     elif checkSafetyRuleOne == "false" and checkSafetyRuleTwo == "false" and \
@@ -206,28 +207,39 @@ def parseLog():
                     # Limitation: there's edge case that if there's innocent proposal with 
                     # P1(round=15,leader=L1,qc_round_number=13) while malicious proposal with
                     # P1(round=15,leader=L1,qc_round_number=14), then cannot detect
-                    
+
+                    # FIX BUG 2: ATTACK 2.2 NOT HADNLED BECAUSE DIDN'T SORT PROPOSER_LIST DYNAMICALLY
+                    proposer_list.sort(key=lambda x: (x.round_number))
                     for proposer_index in range(0, len(proposer_list)-1):
+                        #print( proposer_list[proposer_index].round_number, proposer_list[proposer_index].qc_round_number,)
                         if proposer_list[proposer_index].round_number != proposer_list[proposer_index+1].round_number:
                             continue
-                        #print(proposer.name, proposer.round_number, proposer.qc_round_number, lines[i+2].split(' ')[6], int(lines[i+2].split(' ')[9]), int(lines[i+2].split(' ')[17]))
-
+                        if proposer_list[proposer_index].qc_round_number == proposer_list[proposer_index+1].qc_round_number:
+                            continue
                         # This is for 2.1. Rp = Rc, Lp != Lc
                         # Optimization: Above can cause false porisitve when message , thus do above if statement
-                        if proposer_list[proposer_index].name != lines[i+2].split(' ')[6] and proposer_list[proposer_index].round_number == int(lines[i+2].split(' ')[9])\
+                        '''if proposer_list[proposer_index].name != lines[i+2].split(' ')[6] and proposer_list[proposer_index].round_number == int(lines[i+2].split(' ')[9])\
                             :
                             #print("attack 2.1 here", lines[i+2])
                             detectSafetyAttack(lines[i+2].split(' ')[6], int(lines[i+2].split(' ')[9].strip()), int(lines[i+2].split(' ')[17].strip()),\
                                 2, SAFETY_ATTACK_2_1)
                             attackReporter(2, lines[i+3].split(' ')[7].strip(), int(lines[i+2].split(' ')[9]), int(lines[i+2].split(' ')[17]))
-                            continue
-                        if proposer_list[proposer_index].name == lines[i+2].split(' ')[6] and proposer_list[proposer_index].round_number == int(lines[i+2].split(' ')[9])\
+                            continue'''
+                        try:
+                            if proposer_list[proposer_index].name == lines[i+2].split(' ')[6] and proposer_list[proposer_index].round_number == int(lines[i+2].split(' ')[9])\
+                             and proposer_list[proposer_index].qc_round_number != int(lines[i+2].split(' ')[17]):
+                                
+                                detectSafetyAttack(lines[i+2].split(' ')[6], int(lines[i+2].split(' ')[9].strip()), int(lines[i+2].split(' ')[17].strip()),\
+                                2, SAFETY_ATTACK_2_2)
+                                attackReporter(2, lines[i+3].split(' ')[7].strip(), int(lines[i+2].split(' ')[9]), int(lines[i+2].split(' ')[17]))
+                        except:
+                            if proposer_list[proposer_index].name == lines[i+3].split(' ')[6] and proposer_list[proposer_index].round_number == int(lines[i+3].split(' ')[9])\
                              and proposer_list[proposer_index].qc_round_number != int(lines[i+2].split(' ')[17]):
                             #print("attack 2.2 here", lines[i+2])
-                            detectSafetyAttack(lines[i+2].split(' ')[6], int(lines[i+2].split(' ')[9].strip()), int(lines[i+2].split(' ')[17].strip()),\
+                                detectSafetyAttack(lines[i+3].split(' ')[6], int(lines[i+3].split(' ')[9].strip()), int(lines[i+3].split(' ')[17].strip()),\
                                 2, SAFETY_ATTACK_2_2)
-                            attackReporter(2, lines[i+3].split(' ')[7].strip(), int(lines[i+2].split(' ')[9]), int(lines[i+2].split(' ')[17]))
-
+                                attackReporter(2, lines[i+4].split(' ')[7].strip(), int(lines[i+4].split(' ')[9]), int(lines[i+3].split(' ')[17]))
+                        
                 # Record voter info to try detect malicious voters for attack 3 later
                 if len(line_list) >= 6 and line_list[4] == "I'm" and line_list[5] == "voter":
                     voter_list.append(Voter(name=node_name, round_number=int(line_list[14].strip()), \
@@ -259,6 +271,7 @@ def parseLog():
     #for proposer in proposer_list:
         #print(proposer.name, proposer.round_number, proposer.qc_round_number)
     #print(committedRoundToQc)
+    
 
 def attackReporter(attack_id, reporter, round, qc_round):
     if attack_id == 1:
@@ -268,11 +281,16 @@ def attackReporter(attack_id, reporter, round, qc_round):
         else:
            #print("reporter",reporter)
             attack_1_reporter_to_roundqc[reporter].append([round, qc_round])
-    else:
+    elif attack_id == 2:
         if attack_2_reporter_to_roundqc.get(reporter, "default") == "default":
             attack_2_reporter_to_roundqc[reporter] = [[round, qc_round]]
         else:
             attack_2_reporter_to_roundqc[reporter].append([round, qc_round])
+    else:
+        if attack_liveness_reporter_to_roundqc.get(reporter, "default") == "default":
+            attack_liveness_reporter_to_roundqc[reporter] = [[round, qc_round]]
+        else:
+            attack_liveness_reporter_to_roundqc[reporter].append([round, qc_round])
 
 # Util for adding safety attack proof for one malicious node
 def detectSafetyAttack(name, round_number, qc_round_number, attack_id, description):
@@ -333,8 +351,11 @@ def detectLivenessOrAccident(name, round_number, qc_round_number, description):
 # Detect attack 2.2
 def detectAttackTwoPtTwo():
     for i in range(1,len(proposer_list)):
+        # FIX BUG 3: proposer_list[i].qc_round_number != proposer_list[i-1].qc_round_number WAS 
+        # NOT INCLUDED AT FIRST SO SOME LIVENESS ATTACK ARE MISINTERPRETED AS 
         if proposer_list[i].name == proposer_list[i-1].name and \
             proposer_list[i].round_number == proposer_list[i-1].round_number and \
+            proposer_list[i].qc_round_number != proposer_list[i-1].qc_round_number and \
             proposer_list[i].round_number not in safetyattackRound:
             detectSafetyAttack(proposer_list[i].name, proposer_list[i].round_number, \
                 proposer_list[i].qc_round_number, 2, SAFETY_ATTACK_2_2)
@@ -423,6 +444,7 @@ def detectAttackFour():
                     qc_round_number=handler_list[handler_index].qc_round_number, attack_id=4, description=SAFETY_ATTACK_4_1_CORRECT_VOTE_REPORT):
                 detectSafetyAttack(name=handler_list[handler_index].name, round_number=handler_list[handler_index].round_number,\
                     qc_round_number=handler_list[handler_index].qc_round_number, attack_id=4, description=SAFETY_ATTACK_4_1_CORRECT_VOTE_REPORT)
+                
             # detect attack 4.1.2
             try:
                 #print(attack_2_reporter_to_roundqc)
@@ -481,14 +503,20 @@ def detectAttackFour():
         for processer_index in range(0, len(processer_list)):
             # need to check leader too to avoid false positive like the 1 0, 1 0 examples
             # detect 4.2.1
+
+
+            # FIX BUG 4: forgot to include processer_list[processer_index].name not in attack_2_reporter_to_roundqc.keys()
+            # to release innocent reporter
             if processer_list[processer_index].round_number == attack.round_number and \
                 processer_list[processer_index].qc_round_number == attack.qc_round_number and \
                 processer_list[processer_index].leader == attack.name and\
                     proof_of_attempt_of_safety_attack[-1] != MaliciousNode(name=processer_list[processer_index].name, round_number=processer_list[processer_index].round_number,\
-                    qc_round_number=processer_list[processer_index].qc_round_number, attack_id=4, description=SAFETY_ATTACK_4_2_CORRECT_VOTE_REPORT):
+                    qc_round_number=processer_list[processer_index].qc_round_number, attack_id=4, description=SAFETY_ATTACK_4_2_CORRECT_VOTE_REPORT) and \
+                        processer_list[processer_index].name not in attack_2_reporter_to_roundqc.keys():
                 detectSafetyAttack(name=processer_list[processer_index].name, round_number=processer_list[processer_index].round_number,\
                     qc_round_number=processer_list[processer_index].qc_round_number, attack_id=4, description=SAFETY_ATTACK_4_2_CORRECT_VOTE_REPORT)
-            # detect 4.2.2    
+                
+            # detect 4.2.2
             try:
                 if processer_list[processer_index].name != processer_list[processer_index+1].name\
                 and processer_list[processer_index].name not in list(attack_2_reporter_to_roundqc.keys()):
@@ -528,6 +556,38 @@ def detectAttackFour():
                     if innocent == False:
                         detectSafetyAttack(name=processer_list[processer_index].name, round_number=attack.round_number,\
                         qc_round_number=attack.qc_round_number, attack_id=4, description=SAFETY_ATTACK_4_2_NO_OR_WRONG_VOTE_REPORT)
+
+# FIX BUG 1: In 10_30 it will not be 100% precision because 1, Attack 1: issue: sometimes honest block will not receive block to vote, like 10_30's 14 that node 8, when the attacker is doing 
+#arrack 1, the attacker sends 2 blocks. But this node 8 didn't receive the first honest block and didn't update self.last_voted_round,
+#and when it sees the second malicious block, it will say pass the safety rule 1 unexpectedly, which should not passed, causing it to be
+#not reporting malicious leader, thus false positive here on wronlg cathing node 8
+
+# Fix is depends on storing all attempts of liveness attacks, and any accidental message losses behavior
+# Then compare with this list of safety attacker that any attacker wrongly caught as doing safety
+# attacks 3 by not reporting malicious leaders will be considered innocent on safety attack if they 
+# report and misconsidered as liveness
+def detectLivenessWhichIsActuallySafetyAttack():
+    innocent_voter = []
+    for name, roundqc in attack_liveness_reporter_to_roundqc.items():
+        for attacker in proof_of_attempt_of_safety_attack:
+            for little_roundqc in roundqc:
+                if name == attacker.name and little_roundqc[0] == attacker.round_number and \
+                    little_roundqc[1] == attacker.qc_round_number:
+                    innocent_voter.append(attacker)
+    temp_proof_of_attempt_of_safety_attack = []
+    for attack in proof_of_attempt_of_safety_attack:
+        temp_proof_of_attempt_of_safety_attack.append(attack)
+    proof_of_attempt_of_safety_attack.clear()
+    for attack in temp_proof_of_attempt_of_safety_attack:
+        innocent = False
+        for voter in innocent_voter:
+            if voter.name == attack.name and voter.round_number == attack.round_number and\
+            voter.qc_round_number == attack.qc_round_number:
+                innocent = True
+                break
+        if innocent == False:
+            proof_of_attempt_of_safety_attack.append(attack)
+
 def main():
     start_time = time.time()
     parseLog()
@@ -538,8 +598,10 @@ def main():
         print("handler", i.name, i.round_number, i.qc_round_number)'''
     detectAttackThree()
     detectAttackFour()
+    
     proof_of_attempt_of_safety_attack.sort(key=lambda x: (x.name, x.round_number, x.qc_round_number, x.description))
     remove_duplicate_safety_attack()
+    detectLivenessWhichIsActuallySafetyAttack()
     print("\n\nFinal Safety Attack")
     for i in proof_of_attempt_of_safety_attack:
         print(i.name, i.round_number, i.qc_round_number, i.description)
@@ -586,6 +648,7 @@ def run(file, fn):
     detectAttackFour()
     proof_of_attempt_of_safety_attack.sort(key=lambda x: (x.name, x.round_number, x.qc_round_number, x.description))
     remove_duplicate_safety_attack()
+    detectLivenessWhichIsActuallySafetyAttack()
     print("Final Safety Attack")
     for i in proof_of_attempt_of_safety_attack:
         print(i.attack_id, i.name, i.round_number, i.qc_round_number, i.description)

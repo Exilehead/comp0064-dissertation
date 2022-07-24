@@ -1,11 +1,11 @@
 Final Safety Attack
-3 9FljeM1YmfRYlpO1 10 0 This node is performing attack 3.1 that it votes for proposals in attack 1, and it is reporting CORRECT voting information
-4 9FljeM1YmfRYlpO1 15 0 This node is performing attack 4.1.1 that it votes for proposals in attack 2.1, and it is reporting CORRECT handling information
-1 DztEcmoeCs/3dE2b 10 0 This node is performing attack 1 that proposes multiple proposals with different QCs but same round numbers
-2 DztEcmoeCs/3dE2b 15 0 This node is performing attack 2.1 that with less round number than current round number and was not the leader for that round
-4 DztEcmoeCs/3dE2b 15 0 This node is performing attack 4.1.2 that it votes for proposals in attack 2.1, and it is reporting NO OR WRONG handling information
-3 EweNJZ5cXiNS6G47 10 0 This node is performing attack 3.1 that it votes for proposals in attack 1, and it is reporting CORRECT voting information
-4 EweNJZ5cXiNS6G47 15 0 This node is performing attack 4.1.1 that it votes for proposals in attack 2.1, and it is reporting CORRECT handling information
-3 RA3G7zSyykeR7UC/ 10 0 This node is performing attack 3.1 that it votes for proposals in attack 1, and it is reporting CORRECT voting information
-4 RA3G7zSyykeR7UC/ 15 0 This node is performing attack 4.1.1 that it votes for proposals in attack 2.1, and it is reporting CORRECT handling information
-Time to detect malicious nodes:  0.132796049118042 seconds
+2 DNmjH8r8PbMiIpVW 25 0 This node is performing attack 2.1 that with less round number than current round number and was not the leader for that round
+4 DNmjH8r8PbMiIpVW 25 0 This node is performing attack 4.1.2 that it votes for proposals in attack 2.1, and it is reporting NO OR WRONG handling information
+1 DNmjH8r8PbMiIpVW 50 0 This node is performing attack 1 that proposes multiple proposals with different QCs but same round numbers
+4 EW8v6nxmJZ8Kds8Z 25 0 This node is performing attack 4.1.1 that it votes for proposals in attack 2.1, and it is reporting CORRECT handling information
+3 EW8v6nxmJZ8Kds8Z 50 0 This node is performing attack 3.1 that it votes for proposals in attack 1, and it is reporting CORRECT voting information
+4 joFlH2SKsblWVIhC 25 0 This node is performing attack 4.1.1 that it votes for proposals in attack 2.1, and it is reporting CORRECT handling information
+3 joFlH2SKsblWVIhC 50 0 This node is performing attack 3.1 that it votes for proposals in attack 1, and it is reporting CORRECT voting information
+4 nV8quG/fHzIk0efk 25 0 This node is performing attack 4.1.1 that it votes for proposals in attack 2.1, and it is reporting CORRECT handling information
+3 nV8quG/fHzIk0efk 50 0 This node is performing attack 3.1 that it votes for proposals in attack 1, and it is reporting CORRECT voting information
+Time to detect malicious nodes:  0.08992910385131836 seconds

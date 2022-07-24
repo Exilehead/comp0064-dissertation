@@ -6,9 +6,10 @@ from bft_detector import run
 import os
 import sys
 
-STDIN_FOLDER = 'logs/1_10_1ML/'
+STDIN_FOLDER = 'logs/1_10_1ML_50_50/'
 MALICIOUS_RANDOM_NODE_ID = [500, 600, 700]
-MALICIOUS_LEADER_ROUND_OF_ATTACK = {10: 0, 15: 0}
+HONEST_NODE_NAME_TO_IS_THERE_ATTACK = {}
+MALICIOUS_LEADER_ROUND_OF_ATTACK = {50:0,25: 0}
 file_index_to_malicious_nodes = {}
 file_index_to_malicious_nodes_cheated = {}
 file_index_to_all_lines = {}
@@ -39,11 +40,29 @@ def test_all_detected_precision():
             print("Actual malicious nodes:", file_index_to_malicious_nodes_cheated[k], \
                 "with numbers of ", len(file_index_to_malicious_nodes_cheated[k]), "\n")
         elif len(file_index_to_malicious_nodes[k]) > len(file_index_to_malicious_nodes_cheated[k]):
+            '''for malicious_node in file_index_to_malicious_nodes[k]:
+                if HONEST_NODE_NAME_TO_IS_THERE_ATTACK[malicious_node] == False:
+                    print("HONEST")
+                    file_index_to_malicious_nodes_cheated[k].append(malicious_node)
+            if len(file_index_to_malicious_nodes[k]) == len(file_index_to_malicious_nodes_cheated[k]):
+                print("\nMatches numbers of unique malicious nodes")
+                print("Detector's malicious nodes:", file_index_to_malicious_nodes[k], \
+                    "with numbers of ", len(file_index_to_malicious_nodes[k]))
+                print("Actual malicious nodes:", file_index_to_malicious_nodes_cheated[k], \
+                    "with numbers of ", len(file_index_to_malicious_nodes_cheated[k]), "\n")
+            elif len(file_index_to_malicious_nodes[k]) > len(file_index_to_malicious_nodes_cheated[k]):
+
+                print("\nNOT Matches numbers of unique malicious nodes")
+                print("Detector's malicious nodes:", file_index_to_malicious_nodes[k], \
+                    "with numbers of ", len(file_index_to_malicious_nodes[k]))
+                print("Actual malicious nodes:", file_index_to_malicious_nodes_cheated[k], \
+                    "with numbers of ", len(file_index_to_malicious_nodes_cheated[k]), "\n")
+                WronglyCaughtHonestNodes += len(file_index_to_malicious_nodes[k]) - len(file_index_to_malicious_nodes_cheated[k])'''
             print("\nNOT Matches numbers of unique malicious nodes")
             print("Detector's malicious nodes:", file_index_to_malicious_nodes[k], \
-                "with numbers of ", len(file_index_to_malicious_nodes[k]))
+                    "with numbers of ", len(file_index_to_malicious_nodes[k]))
             print("Actual malicious nodes:", file_index_to_malicious_nodes_cheated[k], \
-                "with numbers of ", len(file_index_to_malicious_nodes_cheated[k]), "\n")
+                    "with numbers of ", len(file_index_to_malicious_nodes_cheated[k]), "\n")
             WronglyCaughtHonestNodes += len(file_index_to_malicious_nodes[k]) - len(file_index_to_malicious_nodes_cheated[k])
         SupposesMaliciousNodes += len(file_index_to_malicious_nodes_cheated[k])
     precision = SupposesMaliciousNodes/(WronglyCaughtHonestNodes+SupposesMaliciousNodes)
@@ -64,13 +83,30 @@ def test_all_detected_recall():
                 "with numbers of ", len(file_index_to_malicious_nodes[k]))
             print("Actual malicious nodes:", file_index_to_malicious_nodes_cheated[k], \
                 "with numbers of ", len(file_index_to_malicious_nodes_cheated[k]), "\n")
+        # FIX BUG 5: When there's honest nodes but fail to send messages due to liveness or 
+        # accidental stuff, it is wrongly interpreted by the tester as malicious nodes ,and 
+        # here need to eliminate them from tester's cheat list
         elif len(file_index_to_malicious_nodes[k]) < len(file_index_to_malicious_nodes_cheated[k]):
-            print("\nNOT Matches numbers of unique malicious nodes")
-            print("Detector's malicious nodes:", file_index_to_malicious_nodes[k], \
-                "with numbers of ", len(file_index_to_malicious_nodes[k]))
-            print("Actual malicious nodes:", file_index_to_malicious_nodes_cheated[k], \
-                "with numbers of ", len(file_index_to_malicious_nodes_cheated[k]), "\n")
-            IgnoredMaliciousNodes += len(file_index_to_malicious_nodes_cheated[k]) - len(file_index_to_malicious_nodes[k])
+            for malicious_node in file_index_to_malicious_nodes_cheated[k]:
+                try:
+                    if HONEST_NODE_NAME_TO_IS_THERE_ATTACK[malicious_node] == False:
+                        file_index_to_malicious_nodes[k].append(malicious_node)
+                except:
+                    continue
+            if len(file_index_to_malicious_nodes[k]) == len(file_index_to_malicious_nodes_cheated[k]):
+                print("\nMatches numbers of unique malicious nodes")
+                print("Detector's malicious nodes:", file_index_to_malicious_nodes[k], \
+                    "with numbers of ", len(file_index_to_malicious_nodes[k]))
+                print("Actual malicious nodes:", file_index_to_malicious_nodes_cheated[k], \
+                    "with numbers of ", len(file_index_to_malicious_nodes_cheated[k]), "\n")
+            elif len(file_index_to_malicious_nodes[k]) < len(file_index_to_malicious_nodes_cheated[k]):
+
+                print("\nNOT Matches numbers of unique malicious nodes")
+                print("Detector's malicious nodes:", file_index_to_malicious_nodes[k], \
+                    "with numbers of ", len(file_index_to_malicious_nodes[k]))
+                print("Actual malicious nodes:", file_index_to_malicious_nodes_cheated[k], \
+                    "with numbers of ", len(file_index_to_malicious_nodes_cheated[k]), "\n")
+                IgnoredMaliciousNodes += len(file_index_to_malicious_nodes_cheated[k]) - len(file_index_to_malicious_nodes[k])
         SupposesMaliciousNodes += len(file_index_to_malicious_nodes_cheated[k])
     recall = SupposesMaliciousNodes/(IgnoredMaliciousNodes+SupposesMaliciousNodes)
     print("\n\n-----------Recall is", "{:.2%}".format(recall), "--------------\n\n")
@@ -123,7 +159,7 @@ def test_attack_category_voter():
         ActualCorrectNumber += len(cheat_list)
         detector_list = []
         try:
-            detector_list = pubkey_to_attack_id[k]
+            detector_list = list(set(pubkey_to_attack_id[k]))
         except:
             # If no key then wrong and continue
             continue
@@ -184,11 +220,13 @@ def gather_results_from_files_by_cheating():
         node_files = [f_name for f_name in os.listdir(file_path)\
         if f_name.startswith('node')]
         for file in node_files:
+            is_there_attack = False
             with open(file_path+file) as f:
                 lines = f.readlines()
                 node_name = ''
                 for index in range(0, len(lines)):
                     line_list = lines[index].split(' ')
+
                     if len(line_list) >= 7 and line_list[6] == 'successfully':
                         node_name = line_list[5]
                     # Get all malicious leaders:
@@ -208,24 +246,40 @@ def gather_results_from_files_by_cheating():
                                 file_index_to_malicious_nodes_cheated[i] = [node_name]
                             else:
                                 file_index_to_malicious_nodes_cheated[i].append(node_name)
-
+                        else:
+                            HONEST_NODE_NAME_TO_IS_THERE_ATTACK[node_name] = False
+                    if len(line_list) >= 7 and line_list[4] == 'Attack' and line_list[5] == '1':
+                        is_there_attack = True
+                    if len(line_list) >= 7 and line_list[4] == 'Attack' and line_list[5] == '2':
+                        is_there_attack = True
                     if len(line_list) >= 7 and line_list[4] == 'Attack' and line_list[5] == '3':
                         if pubkey_to_attack_id_cheated.get(node_name, "default") == "default":
                             pubkey_to_attack_id_cheated[node_name] = [3]
                         else:
                             pubkey_to_attack_id_cheated[node_name].append(3)
+                        is_there_attack = True
 
                     if len(line_list) >= 7 and line_list[4] == 'Attack' and line_list[5] == '4':
                         if pubkey_to_attack_id_cheated.get(node_name, "default") == "default":
                             pubkey_to_attack_id_cheated[node_name] = [4]
                         else:
                             pubkey_to_attack_id_cheated[node_name].append(4)
-
+                        is_there_attack = True
+            HONEST_NODE_NAME_TO_IS_THERE_ATTACK[node_name] = is_there_attack
         if file_index_to_malicious_nodes_cheated.get(i, "default") == "default":
             file_index_to_malicious_nodes_cheated[i] = []
         else:
             file_index_to_malicious_nodes_cheated[i] = list(set(file_index_to_malicious_nodes_cheated[i]))
     print(file_index_to_malicious_nodes_cheated)
+    print(HONEST_NODE_NAME_TO_IS_THERE_ATTACK)
+
+def test_attack_category_leader():
+   for k, v in file_index_to_malicious_nodes.items():
+        for pubkey in v:
+            for k_2, v_2 in file_index_to_all_lines.items():
+                for line in v_2:
+                    if line[1].strip() == pubkey and (line[0].strip() == '1' or line[0].strip() == '2'):
+                        return True
 
 def main():
     temp = sys.stdout
@@ -239,11 +293,13 @@ def main():
     is_exceed_time_limit = test_time()
     
     correctness_voter = test_attack_category_voter()
+    is_malicious_leader_existed = test_attack_category_leader()
     print("\n\n\n---------------------------BASIC TEST DONE---------------------------------------")
     print("\n\n\n---------------------------PRECISION IS ","{:.2%}".format(precision), "---------------------------------------")
     print("\n\n\n---------------------------RECALL IS ","{:.2%}".format(recall), "---------------------------------------")
     print("\n\n\n---------------------------IS RUN IN QUASI-REAL TIME?",is_exceed_time_limit,"---------------------------------------\n\n\n")
     print("\n\n\n---------------------------ADVANCED TEST DONE---------------------------------------")
+    print("\n\n\n-------------------CORRECTNESS THAT MALICOUS VOTER'S ATTACK CATEGORY IS CORRECTLY IDENTIFIED IS ", is_malicious_leader_existed, "---------------------------------")
     print("\n\n\n-------------------CORRECTNESS THAT MALICOUS VOTER'S ATTACK CATEGORY IS CORRECTLY IDENTIFIED IS ","{:.2%}".format(correctness_voter), "---------------------------------")
 if __name__=='__main__':
     main()

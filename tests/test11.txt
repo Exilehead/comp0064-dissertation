@@ -1,10 +1,7 @@
 Final Safety Attack
-1 Cv6mY3IC6LjnNaoM 10 0 This node is performing attack 1 that proposes multiple proposals with different QCs but same round numbers
-3 Cv6mY3IC6LjnNaoM 10 0 This node is performing attack 3.2 that it votes for proposals in attack 1, and it is reporting NO OR WRONG voting information
-2 Cv6mY3IC6LjnNaoM 15 0 This node is performing attack 2.1 that with less round number than current round number and was not the leader for that round
-4 Cv6mY3IC6LjnNaoM 15 0 This node is performing attack 4.1.2 that it votes for proposals in attack 2.1, and it is reporting NO OR WRONG handling information
-3 JhDq2eXMMFURTd5J 10 0 This node is performing attack 3.2 that it votes for proposals in attack 1, and it is reporting NO OR WRONG voting information
-4 JhDq2eXMMFURTd5J 15 0 This node is performing attack 4.1.2 that it votes for proposals in attack 2.1, and it is reporting NO OR WRONG handling information
-3 pUrdoNGJnpf5SZlz 10 0 This node is performing attack 3.2 that it votes for proposals in attack 1, and it is reporting NO OR WRONG voting information
-4 pUrdoNGJnpf5SZlz 15 0 This node is performing attack 4.1.2 that it votes for proposals in attack 2.1, and it is reporting NO OR WRONG handling information
-Time to detect malicious nodes:  0.13453078269958496 seconds
+4 0FORQ+c51j92ao7q 25 0 This node is performing attack 4.1.1 that it votes for proposals in attack 2.1, and it is reporting CORRECT handling information
+3 0FORQ+c51j92ao7q 50 0 This node is performing attack 3.1 that it votes for proposals in attack 1, and it is reporting CORRECT voting information
+2 Cs25CQ4FjzQc9kIT 25 0 This node is performing attack 2.1 that with less round number than current round number and was not the leader for that round
+4 Cs25CQ4FjzQc9kIT 25 0 This node is performing attack 4.1.2 that it votes for proposals in attack 2.1, and it is reporting NO OR WRONG handling information
+1 Cs25CQ4FjzQc9kIT 50 0 This node is performing attack 1 that proposes multiple proposals with different QCs but same round numbers
+Time to detect malicious nodes:  0.09978890419006348 seconds
