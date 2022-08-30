@@ -1,4 +1,12 @@
 # comp0064-dissertation
+
+How to run scripts for testing?
+1. In bft_tester.py, change STDIN_FOLDER to the targeted folder.
+2. In bft_tester.py, change MALICIOUS_LEADER_ROUND_OF_ATTACK to be occurances of rounds of attacks as STDIN_FOLDER hinted. Like 
+logs/1_10_1ML_10_50/ means Attack 1 at round 10 and Attack2 at round 50, then MALICIOUS_LEADER_ROUND_OF_ATTACK is {10:0, 25:0}.
+Since is hard-coded setting, 50 is changed to be divided by 2 for convenience.
+3. Run python bft_tester.py
+
 7.11: Update basic detector bft_detector.py  
 
 7.18: Update detector enabling detecting Attack 3 and 4 on malicious nodes logging dishonest voting messages or not log anything  
@@ -25,10 +33,3 @@ Account "Exilehead" got password issue thus committed with my other account "gao
 With improved precision and recall based on their results. Improvement as bug fixes are included in detector's comment  
 Results can be see in result.xls with charts generated for aggregated average and standard deviation for groups of attacks
 
-
-How to run scripts for testing?
-1. In bft_tester.py, change STDIN_FOLDER to the targeted folder.
-2. In bft_tester.py, change MALICIOUS_LEADER_ROUND_OF_ATTACK to be occurances of rounds of attacks as STDIN_FOLDER hinted. Like 
-logs/1_10_1ML_10_50/ means Attack 1 at round 10 and Attack2 at round 50, then MALICIOUS_LEADER_ROUND_OF_ATTACK is {10:0, 25:0}.
-Since is hard-coded setting, 50 is changed to be divided by 2 for convenience.
-3. Run python bft_tester.py
