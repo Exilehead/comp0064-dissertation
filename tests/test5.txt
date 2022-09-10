@@ -1,2 +1,2 @@
 Final Safety Attack
-Time to detect malicious nodes:  0.08735275268554688 seconds
+Time to detect malicious nodes:  0.08814263343811035 seconds

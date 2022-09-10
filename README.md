@@ -7,6 +7,7 @@ logs/1_10_1ML_10_50/ means Attack 1 at round 10 and Attack2 at round 50, then MA
 Since is hard-coded setting, 50 is changed to be divided by 2 for convenience.
 3. Run python bft_tester.py
 
+Changing History:
 7.11: Update basic detector bft_detector.py  
 
 7.18: Update detector enabling detecting Attack 3 and 4 on malicious nodes logging dishonest voting messages or not log anything  

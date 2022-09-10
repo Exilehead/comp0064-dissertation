@@ -1,10 +1,13 @@
 Final Safety Attack
-2 CrNTLtLLxNFt8AMZ 25 0 This node is performing attack 2.1 that with less round number than current round number and was not the leader for that round
-4 CrNTLtLLxNFt8AMZ 25 0 This node is performing attack 4.1.2 that it votes for proposals in attack 2.1, and it is reporting NO OR WRONG handling information
+2 CrNTLtLLxNFt8AMZ 25 0 This node is performing attack 2.2 that with less round number than current round number and was not the leader for that round
+4 CrNTLtLLxNFt8AMZ 25 0 This node is performing attack 4.1.1 that it votes for proposals in attack 2.1, and it is reporting CORRECT processing information
+4 CrNTLtLLxNFt8AMZ 25 0 This node is performing attack 4.2.2 that it votes for proposals in attack 2.2, and it is reporting NO OR WRONG handling information
 1 CrNTLtLLxNFt8AMZ 50 0 This node is performing attack 1 that proposes multiple proposals with different QCs but same round numbers
 3 CrNTLtLLxNFt8AMZ 50 0 This node is performing attack 3.1 that it votes for proposals in attack 1, and it is reporting CORRECT voting information
-4 JNzsMi0WicPcbw5e 25 0 This node is performing attack 4.1.1 that it votes for proposals in attack 2.1, and it is reporting CORRECT handling information
+4 JNzsMi0WicPcbw5e 25 0 This node is performing attack 4.1.1 that it votes for proposals in attack 2.1, and it is reporting CORRECT processing information
+4 JNzsMi0WicPcbw5e 25 0 This node is performing attack 4.2.1 that it votes for proposals in attack 2.2, and it is reporting CORRECT handling information
 3 JNzsMi0WicPcbw5e 50 0 This node is performing attack 3.1 that it votes for proposals in attack 1, and it is reporting CORRECT voting information
-4 eDYfe0BeKSyrNCf3 25 0 This node is performing attack 4.1.1 that it votes for proposals in attack 2.1, and it is reporting CORRECT handling information
+4 eDYfe0BeKSyrNCf3 25 0 This node is performing attack 4.1.1 that it votes for proposals in attack 2.1, and it is reporting CORRECT processing information
+4 eDYfe0BeKSyrNCf3 25 0 This node is performing attack 4.2.1 that it votes for proposals in attack 2.2, and it is reporting CORRECT handling information
 3 eDYfe0BeKSyrNCf3 50 0 This node is performing attack 3.1 that it votes for proposals in attack 1, and it is reporting CORRECT voting information
-Time to detect malicious nodes:  0.12525534629821777 seconds
+Time to detect malicious nodes:  0.1290299892425537 seconds
